@@ -4,7 +4,7 @@ I'm JonasAbde, a 21-year-old Software Developer student at Mercantec. I'm passio
 
 ## About Me
 
-- 🎓 I'm a Software Developer student at Mercantec.
+- 🎓 I'm a IT student at EAAA. IT TEKNOLOGY
 - 🌱 I'm constantly learning and evolving in the world of programming.
 - 🤝 I'm open to collaboration and eager to work on exciting projects.
 - 📧 You can reach me at [empire1266@gmail.com](mailto:empire1266@gmail.com).
