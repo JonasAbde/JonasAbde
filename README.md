@@ -1,30 +1,33 @@
-# Hi there! 👋
+# Hi there! 👋  
+I'm **Jonas Abde**, a 22-year-old **IT Technology student** at **Erhvervsakademi Aarhus (EAAA)** in Denmark, delving into the exciting world of **IT and software development**. I am passionate about coding, problem-solving, and learning new technologies to build innovative solutions.
 
-I'm JonasAbde, a 21-year-old Software Developer student at Mercantec. I'm passionate about programming and software development, and I'm currently on a journey to enhance my skills and knowledge in the field.
+---
 
-## About Me
+## 📜 About Me
+- 🎓 **Education**: Currently pursuing IT Technology at EAAA.
+- 🌟 **Focus Areas**: Software development, IoT, and database management.
+- 🌱 **Current Learning Goals**: Deepening my skills in Python, database integration, MQTT, and IoT systems.
+- 🔗 **Collaborations**: Open to working on impactful projects and collaborations in technology.
+- ✉️ **Contact Me**: [empire1266@gmail.com](mailto:empire1266@gmail.com)
 
-- 🎓 I'm a IT student at EAAA. IT TEKNOLOGY
-- 🌱 I'm constantly learning and evolving in the world of programming.
-- 🤝 I'm open to collaboration and eager to work on exciting projects.
-- 📧 You can reach me at [empire1266@gmail.com](mailto:empire1266@gmail.com).
+---
 
-## Current Learning Journey
+## 🚀 Current Learning Journey
+At EAAA, I'm honing my skills in **IoT, programming, and web technologies**, alongside working on exciting projects such as:
+- **Simon Says Game**: A multiplayer project integrating Raspberry Pi Pico, UDP, and a database for high scores.
+- **MQTT Projects**: Building systems for communication between IoT devices.
+- **Robocar Development**: Implementing battery voltage monitoring and controls through MQTT.
 
-I'm currently focusing on my studies at Mercantec, where I'm developing not only my technical skills but also growing as an individual. I'm actively seeking opportunities for personal and professional growth in the realm of software development.
+---
+## 📈 Contribution Stats
+[![JonasAbde's GitHub stats](https://github-readme-stats.vercel.app/api?username=JonasAbde&show_icons=true&theme=radical)](https://github.com/JonasAbde)
 
-## Seeking Opportunities
+## 🌐 Connect with Me
+- [**GitHub**](https://github.com/JonasAbde)
 
-As of December 18, I am actively searching for a learning position or internship to further my practical experience and contribute to real-world projects.
+## 📌 Pinned Projects
+Here are some of my favorite projects:  
+- 🧠 [**Database2.smester**](https://github.com/JonasAbde/Database2.smester): A repository showcasing my semester projects, including IoT, databases, and Python programming.  
 
-## Connect with Me
-
-Feel free to connect with me on:
-
-- [GitHub](https://github.com/JonasAbde)
-- [LinkedIn](https://www.linkedin.com/in/jonas-abde-22691a12a)
-
-<!---
-JonasAbde/JonasAbde is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🚀 Seeking Opportunities
+I'm actively looking for **internships, student jobs, or collaboration opportunities** to gain practical experience and apply my knowledge in real-world projects. Let's connect and create something impactful!
