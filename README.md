@@ -1,20 +1,66 @@
-# 👨‍💻 Jonas Abde - IT-Technologist in Progress
+👨‍💻 Jonas Abde – IT Technologist in Progress
+🌟 About Me
+I'm an IT Technology student at Erhvervsakademi Aarhus (EAAA), specializing in Network, Security, and Embedded Systems. I’m passionate about building real-world tech solutions – from microcontroller-based IoT projects to full-stack networking and secure system setups.
 
-🌟 **About Me**  
-I am an IT Technology student at Erhvervsakademi Aarhus (EAAA), specializing in **Network & Security** and passionate about bridging technology with practical solutions.
 
-🔧 **Skills & Expertise**
-- 🖧 **Networking**: VLAN, OSPF, Unifi Enterprise, Cisco
-- ☁️ **Virtualization & Cloud**: VMware ESXi, Docker, Kubernetes
-- 💻 **Programming**: Python, MicroPython, Bash
-- ⚙️ **Embedded Systems**: Raspberry Pi, IoT, and real-time systems
+🔧 Core Skills & Technologies
 
-📂 **Highlighted Projects**
-1. **Simon’s Says Multiplayer** ([GitHub Repository](#))  
-   A network-based multiplayer game combining Raspberry Pi Pico and PostgreSQL.
-2. **Autonomous IoT Robot Car** ([GitHub Repository](#))  
-   Created an autonomous robot equipped with Python-based control systems and IoT integration.
+🖧 Networking & Infrastructure
+VLAN, OSPF, DHCP, DNS, Cisco, Unifi, pfSense
 
-📫 **Contact Me**
-- LinkedIn: [Jonas Abde](https://www.linkedin.com/in/jonas-abde-22691a12a)
-- Email: [jonasabde@icloud.com
+☁️ Systems & Virtualization
+TrueNAS, VMware ESXi, Docker, Nextcloud
+
+💻 Programming & Scripting
+Python, MicroPython, Bash, HTML/CSS
+
+📡 Embedded Systems & IoT
+Raspberry Pi (Pico/W), GPIO, UDP, MQTT, real-time systems
+
+🔐 Security & Access Management
+Firewalls, port forwarding, 2FA, network security principles
+
+
+📚 Field of Study: IT Technology – Network & Security
+My academic focus includes:
+
+Network design, switching & routing
+
+Cybersecurity and access control
+
+Embedded programming with real-time systems
+
+Linux server administration and infrastructure management
+
+
+📂 Highlighted Projects
+
+1. 🎮 Simon Says – Network-Based Multiplayer Game
+Built with Raspberry Pi Pico, this project combines physical LED-button interaction with UDP communication and PostgreSQL backend for highscores.
+Tech: Python, UDP, Raspberry Pi, PostgreSQL, Web Interface
+
+2. 🚗 Autonomous IoT Robot Car
+A self-driving car using sensors, MQTT communication, and Python control logic – designed for autonomous movement and data logging.
+Tech: Raspberry Pi Pico W, MicroPython, MQTT, GPIO
+
+3. 🧠 Jarvis AI – Smart Assistant Dashboard
+A personal assistant dashboard with API integrations, dynamic UI, and task management tools.
+Tech: JavaScript, TailwindCSS, REST API
+
+4. 📦 Custom NAS & Cloud Integration
+Set up a personal NAS with TrueNAS, remote access via DDNS, ZFS configuration, and cloud sync using Nextcloud.
+Tech: TrueNAS, ZFS, SMB, Nextcloud
+
+
+
+📫 Let's Connect
+
+🔗 LinkedIn – Jonas Abde
+
+📧 Email – jonasabde@icloud.com
+
+💼 GitHub – jonasabde
+---
+
+🚀 Open to collaborations, freelance opportunities, and building cool tech together!
+Check out my pinned projects below 👇
