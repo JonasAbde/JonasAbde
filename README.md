@@ -35,19 +35,23 @@ Linux server administration and infrastructure management
 
 📂 Highlighted Projects
 
-1. 🎮 Simon Says – Network-Based Multiplayer Game
+1. 🏢 TekupDK – IT Infrastructure & Solutions
+Collaborating with TekupDK on professional IT infrastructure projects, including network design, system administration, and technology consulting services.
+Tech: Networking, System Administration, IT Consulting, Infrastructure Design
+
+2. 🎮 Simon Says – Network-Based Multiplayer Game
 Built with Raspberry Pi Pico, this project combines physical LED-button interaction with UDP communication and PostgreSQL backend for highscores.
 Tech: Python, UDP, Raspberry Pi, PostgreSQL, Web Interface
 
-2. 🚗 Autonomous IoT Robot Car
+3. 🚗 Autonomous IoT Robot Car
 A self-driving car using sensors, MQTT communication, and Python control logic – designed for autonomous movement and data logging.
 Tech: Raspberry Pi Pico W, MicroPython, MQTT, GPIO
 
-3. 🧠 Jarvis AI – Smart Assistant Dashboard
+4. 🧠 Jarvis AI – Smart Assistant Dashboard
 A personal assistant dashboard with API integrations, dynamic UI, and task management tools.
 Tech: JavaScript, TailwindCSS, REST API
 
-4. 📦 Custom NAS & Cloud Integration
+5. 📦 Custom NAS & Cloud Integration
 Set up a personal NAS with TrueNAS, remote access via DDNS, ZFS configuration, and cloud sync using Nextcloud.
 Tech: TrueNAS, ZFS, SMB, Nextcloud
 
