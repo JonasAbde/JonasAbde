@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#14141f"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="900" cy="150" r="300" fill="#6366f1" opacity="0.08"/>
+  <circle cx="300" cy="500" r="250" fill="#22d3ee" opacity="0.06"/>
+  <text x="100" y="280" font-family="system-ui" font-weight="700" font-size="64" fill="#f1f1f1">Jonas Abde</text>
+  <text x="100" y="360" font-family="system-ui" font-weight="400" font-size="28" fill="#6366f1" opacity="0.8">Fullstack Developer &amp; AI Automation</text>
+  <text x="100" y="430" font-family="system-ui" font-weight="300" font-size="22" fill="#a1a1aa">Aarhus, Danmark</text>
+  <rect x="100" y="480" width="60" height="3" rx="2" fill="url(#g)"/>
+</svg>

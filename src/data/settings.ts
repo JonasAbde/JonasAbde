@@ -7,7 +7,7 @@ export const siteConfig = {
   github: 'https://github.com/jonasabde',
   linkedin: 'https://linkedin.com/in/jonasabde',
   location: 'Aarhus, Danmark',
-  ogImage: '/images/og-default.jpg',
+  ogImage: '/images/og-default.svg',
 
   navLinks: [
     { label: 'Projekter', href: '/projekter' },

@@ -23,10 +23,16 @@ export default function AboutPreview() {
           {/* Right: Photo placeholder */}
           <div className="flex justify-center">
             <div className="relative glass rounded-xl w-full max-w-sm aspect-[3/4] flex items-center justify-center border border-primary/20">
-              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/10 to-accent-purple/10 pointer-events-none" />
-              <span className="text-pearl-dark/40 text-lg font-medium relative z-10">
-                Foto
-              </span>
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 pointer-events-none" />
+              <div className="text-center relative z-10">
+                  <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-surface-lighter flex items-center justify-center">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-muted">
+                      <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/>
+                      <path d="M20 21a8 8 0 1 0-16 0"/>
+                    </svg>
+                  </div>
+                  <p className="text-sm text-muted">Profilbillede kommer snart</p>
+                </div>
             </div>
           </div>
         </div>

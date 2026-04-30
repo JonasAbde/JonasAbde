@@ -25,7 +25,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center gradient-hero overflow-hidden">
       {/* Floating accent element */}
       <div className="absolute top-1/4 right-1/4 w-32 h-32 rounded-full bg-primary/20 blur-3xl animate-float pointer-events-none" />
-      <div className="absolute bottom-1/3 left-1/6 w-24 h-24 rounded-full bg-accent-purple/15 blur-2xl animate-float pointer-events-none" style={{ animationDelay: "1s" }} />
+      <div className="absolute bottom-1/3 left-1/6 w-24 h-24 rounded-full bg-accent/15 blur-2xl animate-float pointer-events-none" style={{ animationDelay: "1s" }} />
 
       <Container className="relative z-10 text-center">
         <motion.div

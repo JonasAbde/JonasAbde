@@ -22,7 +22,7 @@ export default function CasesHighlight() {
               className="relative rounded-lg bg-surface-lighter/50 border border-surface-lighter/60 p-6 transition-all hover:border-primary/30"
             >
               {/* Gradient left border */}
-              <div className="absolute left-0 top-2 bottom-2 w-1 rounded-r-full bg-gradient-to-b from-primary to-accent-purple" />
+              <div className="absolute left-0 top-2 bottom-2 w-1 rounded-r-full bg-gradient-to-b from-primary to-accent/50" />
 
               <div className="pl-4">
                 <h3 className="text-xl font-semibold text-pearl mb-2">{project.title}</h3>
