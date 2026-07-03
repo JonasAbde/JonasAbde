@@ -10,6 +10,19 @@ I work across full-stack development, AI-assisted workflows, APIs, system integr
 
 ---
 
+## Navigation
+
+- [PROJECTS.md](PROJECTS.md) — full project portfolio
+- [NOW.md](NOW.md) — current focus
+- [ROADMAP.md](ROADMAP.md) — next direction
+- [STACK.md](STACK.md) — technical toolbox
+- [BUILDING.md](BUILDING.md) — how I build
+- [LEARNING.md](LEARNING.md) — what I am improving
+- [LABS.md](LABS.md) — experiments and research areas
+- [docs/builder-principles.md](docs/builder-principles.md) — AI builder principles
+
+---
+
 ## Current direction
 
 I am currently focused on:
@@ -29,94 +42,49 @@ I am currently focused on:
 
 Most of my larger projects are private because they include business logic, unfinished prototypes, internal workflows, or experiments. This profile is my public overview of what I build and how I think.
 
-### Friday Capital OS
+### Core AI and operating systems
 
-An AI-assisted business operating system concept for structuring tasks, leads, workflows, decisions, and operational overview.
+- **Friday Capital OS** — AI-assisted business operating system for leads, tasks, decisions, and operational overview.
+- **FridayOS** — personal AI workspace and agent operating environment.
+- **Project Exodus** — AI runtime, inference, model serving, and self-hosted AI infrastructure experiments.
+- **HFS-AI** — AI/automation experiments around assistant workflows, tools, and applied AI systems.
 
-The goal is to explore how AI agents, structured data, and workflow automation can support real business operations.
+### Business platforms
 
-Focus areas:
+- **Rendetalje Worker** — operations platform for cleaning-business workflows.
+- **Rendetalje Workflows** — AI-assisted customer, lead, email, and calendar workflows.
+- **Foodtruck Fiesta** — event, booking, and customer-facing platform work.
+- **TekUp** — software, AI, and digital solutions umbrella.
 
-- AI-assisted task planning
-- Lead and customer follow-up workflows
-- Business decision support
-- Agent-based workflow design
-- Structured operating systems for small businesses
-- Internal dashboards and operational intelligence
+### Product and research prototypes
 
-Status: evolving private project / prototype.
-
----
-
-### Project Thea
-
-A Danish health-assistant prototype focused on helping users structure health concerns, prepare questions, and create clear summaries.
-
-The project explores how AI can assist with communication, information structure, and user guidance in sensitive domains, while keeping clear boundaries around what the assistant should and should not do.
-
-Focus areas:
-
-- Danish-language assistant workflows
-- Safety-aware product design
-- User guidance without diagnosis
-- Summaries and question preparation
-- Structured information flow
-- Responsible AI thinking
-
-Status: private prototype and learning project.
+- **Project Thea** — Danish health-assistant prototype focused on structure, summaries, and safe boundaries.
+- **WorldMind** — AI/game simulation experiment with agents, state, memory, and decision logic.
+- **Agent Hotel / Agent Ops** — experiments around agent systems, prompts, and workflow design.
 
 ---
 
-### WorldMind
+## Selected case studies
 
-An experimental AI/game simulation project exploring agents, memory, state, decisions, and interactive world logic.
+- [Friday Capital OS](case-studies/friday-capital-os.md)
+- [FridayOS](case-studies/fridayos.md)
+- [Project Exodus](case-studies/project-exodus.md)
+- [HFS-AI](case-studies/hfs-ai.md)
+- [Rendetalje Worker](case-studies/rendetalje-worker.md)
+- [Rendetalje Workflows](case-studies/rendetalje-workflows.md)
+- [Foodtruck Fiesta](case-studies/foodtruck-fiesta.md)
+- [TekUp](case-studies/tekup.md)
+- [Project Thea](case-studies/project-thea.md)
+- [WorldMind](case-studies/worldmind.md)
 
-The goal is to understand how AI systems can support dynamic simulations and more interactive experiences.
+Each case study focuses on:
 
-Focus areas:
-
-- Agent behavior
-- State and memory
-- Decision logic
-- Simulation workflows
-- Experimental product design
-- Interactive systems
-
-Status: experimental project with public and private parts.
-
----
-
-### Rendetalje Workflows
-
-Practical AI-assisted workflows built around a real cleaning business.
-
-The goal is to turn leads, emails, calendar data, customer information, and operational tasks into useful business actions.
-
-Focus areas:
-
-- Lead follow-up
-- Customer communication
-- Weekly task planning
-- Calendar-based operations
-- Business workflow automation
-- Internal admin support
-
-Status: practical business automation and internal tooling.
-
----
-
-### Personal AI / Agent Workspace
-
-I also experiment with personal AI assistant workflows, agent prompts, automation patterns, and tool-based systems for managing projects and decisions.
-
-Focus areas:
-
-- Prompt engineering
-- AI agent workflows
-- Tool integrations
-- Automation design
-- Developer productivity
-- Structured project execution
+- Problem
+- Solution idea
+- Tools and architecture
+- What I built or explored
+- What I learned
+- Next steps
 
 ---
 
@@ -174,26 +142,6 @@ I am especially interested in AI tools that are useful in daily operations: syst
 - Firewall and security principles
 - Raspberry Pi / Pico projects
 - IoT and embedded systems basics
-
----
-
-## Case studies
-
-I document selected projects as short case studies:
-
-- Friday Capital OS — AI-assisted business operating system
-- Rendetalje Workflows — AI-assisted operations for a cleaning business
-- Project Thea — Danish health-assistant prototype
-- WorldMind — AI/game simulation experiment
-
-Each case study focuses on:
-
-- Problem
-- Solution idea
-- Tools and architecture
-- What I built
-- What I learned
-- Next steps
 
 ---
 
