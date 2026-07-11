@@ -1,122 +1,131 @@
-# Project Portfolio
+# Selected Project Portfolio
 
-This is a public overview of selected projects, concepts, and experiments. Some repositories are public, while others are private because they include business logic, customer workflows, unfinished prototypes, or internal systems.
+This portfolio prioritizes projects that demonstrate real operational use, technical depth, testing, deployment, and the ability to explain engineering decisions. Some repositories are private because they contain active business logic, credentials, customer workflows, or unreleased product code.
 
-The goal of this portfolio is to show the type of systems I build and the problems I am interested in solving.
+## 1. Rendetalje Worker
 
----
+**Type:** live production business platform  
+**Status:** active  
+**Live:** https://rendetalje.dk
 
-## Core AI and operating systems
+A customer-facing React and TypeScript platform for Rendetalje.
 
-### Friday Capital OS
+### What it demonstrates
 
-AI-assisted business operating system for structuring tasks, leads, workflows, decisions, and operational overview.
+- React 19, Vite, TypeScript strict mode, Tailwind CSS
+- Cloudflare Pages Functions and Resend integration
+- Multi-step quote flow and pricing calculator
+- SEO, structured data, analytics, accessibility, and performance work
+- Security headers and production deployment
+- Continuous improvement based on a real operating business
 
-Type: private prototype / business workflow system  
-Focus: AI agents, operations, structured data, business workflows
+### My role
 
-### FridayOS
-
-Personal AI workspace and agent operating environment for managing projects, prompts, tools, and workflows.
-
-Type: private / experimental system  
-Focus: AI workspace, agents, productivity, tool orchestration
-
-### Project Exodus
-
-AI runtime and infrastructure project focused on model serving, inference, API architecture, and self-hosted AI systems.
-
-Type: private / technical infrastructure project  
-Focus: AI inference, model runtime, APIs, deployment, system design
-
-### HFS-AI
-
-AI and automation experiments around assistant workflows, internal tools, and applied AI systems.
-
-Type: experimental project  
-Focus: AI tools, workflow automation, prompt systems, assistant design
+Product direction, workflow definition, requirements, review, deployment, operational validation, and AI-assisted implementation management.
 
 ---
 
-## Business platforms
+## 2. FridayOS
 
-### Rendetalje Worker
+**Type:** private agentic operations platform  
+**Status:** active foundation and release work
 
-Operations platform for Rendetalje, a cleaning business. Focused on tasks, leads, customer workflows, planning, and admin support.
+A governed control plane for AI agents, providers, workspaces, approval queues, permissions, jobs, artifacts, usage records, MCP tools, and audit trails.
 
-Type: private business operations project  
-Focus: operations, scheduling, customer workflows, internal tooling
+### What it demonstrates
 
-### Rendetalje Workflows
+- Next.js App Router and API architecture
+- Repository abstraction across JSON, PGlite, and PostgreSQL
+- Approval gates, security middleware, rate limiting, and negative-path testing
+- Runtime jobs, ledgers, artifacts, usage records, and diagnostics
+- Fly.io-oriented deployment and production verification
+- Test suites exceeding 1,200 passing tests during major release work
 
-AI-assisted workflows for leads, emails, calendar planning, customer communication, and weekly task preparation.
+### My role
 
-Type: practical workflow system  
-Focus: business automation, communication, lead follow-up
-
-### Foodtruck Fiesta
-
-Event and booking platform work connected to food truck operations, customer communication, and service presentation.
-
-Type: business platform / web project  
-Focus: booking, events, web presence, customer workflows
-
-### TekUp
-
-Software, AI, and digital solutions umbrella. Used as the broader structure for business, product, and software initiatives.
-
-Type: business umbrella / software initiative  
-Focus: software services, AI tools, automation, digital products
+Product architecture, requirements, decomposition, agent coordination, review, test-gate definition, security decisions, release management, and verification.
 
 ---
 
-## Product and research prototypes
+## 3. Hermes Forge
 
-### Project Thea
+**Type:** private full-stack AI-agent platform  
+**Status:** active development  
+**Live:** https://forge.tekup.dk
 
-Danish health-assistant prototype focused on helping users structure concerns, prepare questions, and create clear summaries.
+A platform for versioned AI agent packs with catalog, chat, progression, fusion, trust metadata, accounts, and deployment workflows.
 
-Type: private prototype  
-Focus: Danish UX, safety-aware AI, structured summaries, responsible assistant design
+### What it demonstrates
 
-### WorldMind
+- React 19, TypeScript, Node.js, SQLite, VitePress
+- Magic-link authentication and secure session handling
+- Vitest and Playwright
+- MCP integration and structured logging
+- nginx, systemd, and HTTPS deployment
+- Complex domain modeling across catalog, progression, social, and chat features
 
-AI/game simulation experiment exploring agents, memory, state, decisions, and interactive world logic.
+### My role
 
-Type: experimental project  
-Focus: agents, memory, state, simulation, interactive systems
-
-### Agent Hotel / Agent Ops
-
-Experiments around agent workspaces, prompt libraries, workflow design, and tool-based AI execution.
-
-Type: experimental / research project  
-Focus: agent systems, prompt engineering, workflow orchestration
+Product direction, architecture, feature specification, review, testing strategy, deployment, and AI-assisted development orchestration.
 
 ---
 
-## Older / study-related technical projects
+## 4. LeadRadar
 
-### Network-based Simon Says game
+**Type:** public business-intelligence prototype  
+**Repository:** https://github.com/JonasAbde/leadradar
 
-Raspberry Pi Pico project using physical LED-button interaction, UDP communication, and backend concepts.
+A FastAPI application that aggregates public procurement and company signals, enriches them, and scores leads.
 
-Focus: MicroPython, UDP, Raspberry Pi, networking, backend basics
+### What it demonstrates
 
-### Autonomous IoT robot car
-
-Embedded/IoT project using sensors, MQTT communication, and Python/MicroPython control logic.
-
-Focus: IoT, sensors, MQTT, embedded programming
-
-### Custom NAS and cloud setup
-
-Personal infrastructure setup involving TrueNAS, ZFS, remote access, and cloud synchronization.
-
-Focus: infrastructure, storage, networking, systems administration
+- Python, FastAPI, SQLAlchemy, SQLite, Jinja2
+- EU TED tenders, CVR enrichment, and RSS ingestion
+- JWT cookies, bcrypt, rate limiting, and background jobs
+- Lead actions, CSV export, alerts, and CRM queue design
 
 ---
 
-## Portfolio principle
+## 5. Friday Voice App
 
-Not every project here is public or finished. I use this portfolio to document the direction, learning, and real-world problems behind my work while keeping private business logic and sensitive information protected.
+**Type:** public mobile/web prototype  
+**Repository:** https://github.com/JonasAbde/friday-voice-app
+
+A Flutter voice-assistant interface for business workflows.
+
+### What it demonstrates
+
+- Flutter/Dart and BLoC state management
+- WebSocket communication
+- Speech-to-text and text-to-speech
+- Unit and widget testing
+- Multi-platform architecture
+
+---
+
+## Supporting technical work
+
+### IT and embedded projects
+
+- Networked Simon Says game using Raspberry Pi Pico, UDP, and MicroPython
+- Autonomous IoT robot car using sensors and MQTT
+- Custom NAS and cloud setup using TrueNAS, ZFS, remote access, and synchronization
+
+### Business and automation work
+
+- Lead, email, calendar, booking, campaign, invoicing, and operations workflows for Rendetalje
+- Foodtruck Fiesta booking and web-platform work
+- Agent skills, prompts, workflow specifications, and model-routing experiments
+
+## Portfolio policy
+
+A large repository or high commit count is not automatically a strong portfolio case. Projects are selected based on:
+
+1. A clear real-world problem
+2. A coherent architecture
+3. Working or verifiable behavior
+4. Tests and documentation
+5. Deployment or realistic operational use
+6. A clear explanation of my own decisions and responsibilities
+
+AI-assisted code is described transparently. My contribution is evaluated through requirements, architecture, review, verification, security, deployment, and operational ownership - not by claiming every line was typed manually.
