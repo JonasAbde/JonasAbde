@@ -82,6 +82,8 @@ I do not use repository size or generated code as proof by itself. The evidence 
 
 - [Verified portfolio and claims ledger](PORTFOLIO_EVIDENCE.md)
 - [Selected project portfolio](PROJECTS.md)
+- [Flagship interview cases and architecture explanations](INTERVIEW_CASES.md)
+- [Fresh verification runbook](VERIFICATION_RUNBOOK.md)
 - [LinkedIn profile package](LINKEDIN_PROFILE.md)
 - [Current focus](NOW.md)
 - [Technical stack](STACK.md)
