@@ -25,10 +25,11 @@ Secondary:
 
 ## Current technical priorities
 
-- Keep CV, LinkedIn, and GitHub wording consistent and recruiter-safe
-- Turn the flagship systems into short evidence-based interview cases
-- Record fresh test, build, security, and deployment evidence before quoting metrics
-- Improve repository security and close the public-vault and historical-secret blockers
+- Apply the prepared LinkedIn profile package so CV, LinkedIn, and GitHub tell the same story
+- Run the documented fresh verification commands for the four flagship systems
+- Store sanitized evidence with commit SHA, command, exit code, and known skipped gates
+- Rehearse the prepared two-minute project explanations and technical follow-up questions
+- Resolve the public-vault and historical-secret security blockers
 - Reduce duplicate and low-signal automated pull requests
 - Strengthen Microsoft 365, Azure, networking, service management, and security credentials
 
@@ -47,10 +48,19 @@ I use AI coding agents as implementation collaborators while retaining responsib
 
 Repository size and commit count are not treated as proof by themselves. Claims must be supported by working behavior, reproducible checks, documentation, and a clear explanation of my own role.
 
+## Prepared career assets
+
+- Targeted IT Support and Automation/Full-Stack CV versions, with and without profile photo
+- Verified portfolio claims ledger
+- Ready-to-paste LinkedIn package
+- Four flagship interview cases with architecture diagrams
+- Repository-specific fresh verification runbook
+
 ## Immediate next milestones
 
-- Apply the prepared LinkedIn headline, About text, experience descriptions, education wording, skills, and Featured links
-- Verify the four flagship projects with fresh commands and record the evidence
-- Prepare a two-minute interview explanation and one architecture diagram for each selected case
-- Resolve the public-vault and REN credential-history blockers
+- Execute the Rendetalje Worker typecheck, build, and controlled production/quote smoke
+- Execute Project Thea `verify:all` and separate environment-sensitive pilot gates
+- Execute FridayOS strict/local release gates and document provider/deploy blockers
+- Execute WorldMind `test:all`, `ci:gate`, audit, and release verification
+- Update public claims only from the resulting dated evidence logs
 - Start a consistent role-targeted application pipeline using the support and automation CV versions
