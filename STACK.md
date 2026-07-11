@@ -1,75 +1,93 @@
-# Stack
+# Technical Stack and Experience
 
-This is a practical overview of the technologies and tools I work with or am currently learning.
+This page separates professional support exposure, applied project experience, and working knowledge. It is not an expert-level claim for every listed technology.
 
-## Software and web
+## Professional IT support exposure
 
-- JavaScript
-- TypeScript
-- React
-- Next.js
+Used in professional onsite support or deployment work:
+
+- Microsoft 365
+- Okta
+- ServiceNow
+- Boltrics WMS
+- Windows workplace environments
+- User onboarding and access management
+- Workstation preparation and deployment
+- Onsite troubleshooting and user support
+
+## Applied software development
+
+Used across working prototypes, production business systems, or substantial project repositories:
+
+- JavaScript and TypeScript
+- React and Next.js
 - Node.js
-- HTML / CSS
-- Tailwind CSS basics
-- REST APIs
-- GitHub workflows
+- Python and FastAPI
+- HTML, CSS, and Tailwind CSS
+- REST APIs and WebSockets
+- Authentication, rate limiting, and API integration
+- Flutter and Dart in mobile/voice prototypes
 
-## AI and automation
+## Data and persistence
 
-- LLM-based tools
-- OpenAI-style APIs and assistant workflows
-- Prompt engineering
-- AI agents
-- Workflow automation
-- Tool-based AI systems
-- Structured data workflows
-- AI-assisted prototyping
+- SQLite
+- PostgreSQL
+- PGlite
+- SQLAlchemy
+- Drizzle ORM
+- Prisma
+- Supabase
+- Data modeling, migrations, backup, and export workflows
 
-## Backend and data
+## Infrastructure and operations
 
-- Supabase basics
-- PostgreSQL basics
-- SQLite basics
-- API integrations
-- Basic backend architecture
-- Data modeling basics
+Applied across deployment, hosting, and operational work:
 
-## Systems and infrastructure
+- Git and GitHub pull-request workflows
+- Docker
+- Cloudflare Pages and Workers
+- Fly.io
+- Linux VPS environments
+- nginx and systemd
+- Environment variables and secret-management practices
+- Health checks, smoke tests, backup, and deployment verification
 
-- Docker basics
-- Linux server administration basics
-- Networking concepts
-- VLAN, DHCP, DNS, routing basics
-- Firewall/security principles
-- TrueNAS / storage concepts
-- Self-hosted systems concepts
+## Automation and agent systems
 
-## Embedded and IoT
+- AI-assisted development workflows
+- Agent workspaces, tools, approvals, and permission boundaries
+- MCP-oriented integration concepts
+- Model/provider routing
+- Workflow automation and structured operational data
+- Golden-case evaluations and negative-path testing
+- Human approval gates for sensitive actions
 
-- Python basics
-- MicroPython
-- Raspberry Pi / Pico
-- GPIO
-- MQTT basics
-- UDP basics
-- Sensor-based projects
+## Engineering practices
 
-## Business and operations tools
+- Requirements and acceptance criteria
+- Architecture and system-boundary definition
+- Task decomposition for coding agents
+- Code and pull-request review
+- Automated tests and evaluation suites
+- Security and privacy reviews
+- Release gates and production verification
+- Technical documentation and runbooks
+- Transparent documentation of limitations and incomplete work
 
-- Google Workspace workflow concepts
-- Gmail and Calendar workflow concepts
-- Lead and customer data workflows
-- Internal admin processes
-- Task planning systems
+## Working knowledge and earlier technical projects
 
-## Current improvement areas
+- Networking fundamentals: TCP/IP, DNS, DHCP, VLANs, routing, and firewalls
+- Linux administration and self-hosting concepts
+- TrueNAS, ZFS, storage, backup, and remote-access concepts
+- Raspberry Pi and Pico
+- MicroPython, MQTT, UDP, GPIO, and sensor projects
+- Three.js and browser-based 3D concepts
 
-I am currently improving in:
+## Current development priorities
 
-- Stronger TypeScript
-- Cleaner backend architecture
-- Testing and verification
-- Better API design
-- More reliable AI workflows
-- Documentation quality
-- Deployment and production-readiness
+- Stronger Microsoft 365 and Azure administration knowledge
+- Deeper application-support and incident-management practice
+- Networking and security certification foundations
+- More independent debugging and implementation under technical interview conditions
+- Fresh reproducible test and deployment evidence for flagship projects
+- Smaller, clearer public repositories and case studies

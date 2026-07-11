@@ -82,6 +82,7 @@ I do not use repository size or generated code as proof by itself. The evidence 
 
 - [Verified portfolio and claims ledger](PORTFOLIO_EVIDENCE.md)
 - [Selected project portfolio](PROJECTS.md)
+- [LinkedIn profile package](LINKEDIN_PROFILE.md)
 - [Current focus](NOW.md)
 - [Technical stack](STACK.md)
 - [How I build](BUILDING.md)
