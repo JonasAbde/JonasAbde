@@ -1,47 +1,50 @@
-# Now
+# Current Focus
 
-This page describes what I am currently focused on building and improving.
+## Work
 
-## Current focus
+I currently run **Rendetalje** and work with customer operations, planning, booking, invoicing, lead follow-up, digital workflows, and production systems.
 
-I am focused on becoming stronger at building practical AI and automation systems that solve real workflow problems.
+I am not currently enrolled as a student. I am building a focused transition into the IT industry through documented support experience, operational responsibility, and selected software projects.
 
-Main themes:
+## Roles I am targeting
 
-- AI-assisted business workflows
+Primary:
+
+- IT Support
+- Application Support
+- Technical Operations
+- Implementation Specialist
+- Technical Customer Support
+
+Secondary:
+
+- Automation and integrations
 - Internal tools
-- Agent-based systems
-- Full-stack software prototypes
-- API integrations
-- Operations automation
-- Better documentation and portfolio quality
+- Junior full-stack development
 
-## Active project directions
+## Current technical priorities
 
-### AI builder portfolio
+- Turn Rendetalje systems into clear, evidence-based portfolio cases
+- Improve repository security and remove tracked credentials
+- Reduce duplicate and low-signal automated pull requests
+- Keep three flagship projects recruiter-ready
+- Document what I designed, reviewed, tested, deployed, and operated
+- Strengthen Microsoft, support, cloud, networking, and security credentials
 
-Improving this GitHub profile into a public operating manual for my work, projects, learning, and direction.
+## Flagship portfolio
 
-### Friday Capital OS / FridayOS
+1. Rendetalje Worker - live production business platform
+2. FridayOS - governed agentic operations platform
+3. Hermes Forge - full-stack AI agent platform
+4. LeadRadar - public FastAPI lead-intelligence prototype
 
-Exploring how AI agents, structured workflows, and project systems can support business decisions and daily execution.
+## Working principle
 
-### Rendetalje operations
+I use AI coding agents as implementation collaborators, while retaining responsibility for requirements, architecture direction, review, testing, deployment, security decisions, and operational validation.
 
-Using AI-assisted workflows to improve lead follow-up, task planning, customer communication, and operational overview.
+## Immediate next milestones
 
-### Project Exodus / HFS-AI
-
-Learning more about AI runtime, model usage, infrastructure, APIs, and practical assistant systems.
-
-## What I want next
-
-I am looking for student roles, internships, or junior opportunities where I can help build:
-
-- Practical AI tools
-- Automation workflows
-- Internal platforms
-- APIs and integrations
-- Business process improvements
-
-I learn best through real projects with real constraints.
+- Publish a concise case study for Rendetalje Worker
+- Create recruiter-safe screenshots and architecture summaries for private projects
+- Align LinkedIn, CV, and GitHub wording
+- Apply consistently to support, operations, implementation, and selected automation roles
