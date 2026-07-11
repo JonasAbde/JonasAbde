@@ -1,168 +1,95 @@
-# Jonas Abde — AI & Automation Builder
+# Jonas Abde - IT Support, Automation & Full-Stack Builder
 
-I am a technical student and hands-on builder focused on practical AI, automation, software systems, and business workflows.
+I build and operate practical software systems for real business workflows. My background combines hands-on IT support, workplace deployment, customer operations, small-business ownership, and AI-assisted software development.
 
-My main interest is using AI as part of real workflows — not only as a chatbot, but as a way to structure information, reduce manual work, support decisions, and turn ideas into working prototypes.
+I currently run **Rendetalje**, where I work with customer operations, booking, planning, invoicing, lead follow-up, digital workflows, and internal automation. I am now targeting roles within **IT Support, Technical Operations, Application Support, Implementation, Automation, and Junior Full-Stack Development**.
 
-I work across full-stack development, AI-assisted workflows, APIs, system integrations, technical operations, and small-business automation.
+> I work from real operational problems: define the workflow, build a focused solution, test it, deploy it, and improve it from actual use.
 
-> I build practical prototypes, test them against real use cases, and improve them until they become useful.
+## Professional experience
 
----
+- **Rendetalje - Owner & Operations Lead**: customer operations, scheduling, billing, digital workflows, automation, and production web systems.
+- **Lineage Logistics - Freelance IT Support Technician**: Microsoft 365, Okta, ServiceNow, Boltrics WMS, onboarding, access management, and onsite troubleshooting.
+- **Onitio / Danske Bank - On-call IT Deployment Technician**: workstation preparation, rollout, installation, and onsite technical support.
 
-## Navigation
+## Selected engineering work
 
-- [PROJECTS.md](PROJECTS.md) — full project portfolio
-- [NOW.md](NOW.md) — current focus
-- [ROADMAP.md](ROADMAP.md) — next direction
-- [STACK.md](STACK.md) — technical toolbox
-- [BUILDING.md](BUILDING.md) — how I build
-- [LEARNING.md](LEARNING.md) — what I am improving
-- [LABS.md](LABS.md) — experiments and research areas
-- [docs/builder-principles.md](docs/builder-principles.md) — AI builder principles
+### Rendetalje Worker - live production website
 
----
+A production React and TypeScript platform for Rendetalje, deployed at **https://rendetalje.dk**.
 
-## Current direction
+- React 19, Vite, TypeScript strict mode, Tailwind CSS
+- Cloudflare Pages Functions and Resend email integration
+- Multi-step quote flow, pricing calculator, SEO and structured data
+- Security headers, accessibility work, performance optimization, and production deployment
+- Real business use rather than a standalone demo
 
-I am currently focused on:
+Repository: private because it contains active business material.
 
-- Practical AI automation
-- AI agents and tool-based workflows
-- Full-stack web applications
-- API integrations
-- Business operating systems
-- Lead, task, and customer workflow automation
-- Technical systems from my IT Technology studies
-- Reliable, understandable, and useful AI prototypes
+### FridayOS - governed agentic operations platform
 
----
+A private Next.js control plane for agents, providers, workspaces, approvals, permissions, jobs, artifacts, usage, audit trails, MCP tools, and deployment verification.
 
-## Project portfolio
+- Next.js App Router and API routes
+- JSON, PGlite, and PostgreSQL repository adapters
+- Security middleware, approval gates, rate limiting, and negative-path tests
+- Runtime jobs, ledgers, artifacts, usage records, and operational diagnostics
+- Major release branches have run more than 1,200 automated tests
 
-Most of my larger projects are private because they include business logic, unfinished prototypes, internal workflows, or experiments. This profile is my public overview of what I build and how I think.
+Repository: private. Architecture and selected implementation evidence are available for technical review.
 
-### Core AI and operating systems
+### Hermes Forge - AI agent platform
 
-- **Friday Capital OS** — AI-assisted business operating system for leads, tasks, decisions, and operational overview.
-- **FridayOS** — personal AI workspace and agent operating environment.
-- **Project Exodus** — AI runtime, inference, model serving, and self-hosted AI infrastructure experiments.
-- **HFS-AI** — AI/automation experiments around assistant workflows, tools, and applied AI systems.
+A full-stack platform for versioned AI agent packs, chat, progression, trust metadata, deployment, and social features.
 
-### Business platforms
+- React 19, TypeScript, Node.js, SQLite, VitePress
+- Magic-link authentication and secure sessions
+- Vitest and Playwright testing
+- MCP integration, structured logging, nginx/systemd deployment
+- Live environment: **https://forge.tekup.dk**
 
-- **Rendetalje Worker** — operations platform for cleaning-business workflows.
-- **Rendetalje Workflows** — AI-assisted customer, lead, email, and calendar workflows.
-- **Foodtruck Fiesta** — event, booking, and customer-facing platform work.
-- **TekUp** — software, AI, and digital solutions umbrella.
+Repository: private while the product is under active development.
 
-### Product and research prototypes
+### LeadRadar - public lead-intelligence prototype
 
-- **Project Thea** — Danish health-assistant prototype focused on structure, summaries, and safe boundaries.
-- **WorldMind** — AI/game simulation experiment with agents, state, memory, and decision logic.
-- **Agent Hotel / Agent Ops** — experiments around agent systems, prompts, and workflow design.
+A public FastAPI application that aggregates and scores procurement and company signals.
 
----
+- Python, FastAPI, SQLAlchemy, SQLite, Jinja2
+- EU TED tenders, Danish CVR enrichment, and RSS sources
+- JWT cookies, bcrypt, rate limiting, background jobs, CSV export, and CRM queue
 
-## Selected case studies
+Repository: **[JonasAbde/leadradar](https://github.com/JonasAbde/leadradar)**
 
-- [Friday Capital OS](case-studies/friday-capital-os.md)
-- [FridayOS](case-studies/fridayos.md)
-- [Project Exodus](case-studies/project-exodus.md)
-- [HFS-AI](case-studies/hfs-ai.md)
-- [Rendetalje Worker](case-studies/rendetalje-worker.md)
-- [Rendetalje Workflows](case-studies/rendetalje-workflows.md)
-- [Foodtruck Fiesta](case-studies/foodtruck-fiesta.md)
-- [TekUp](case-studies/tekup.md)
-- [Project Thea](case-studies/project-thea.md)
-- [WorldMind](case-studies/worldmind.md)
+## Additional public work
 
-Each case study focuses on:
+- **[Friday Voice App](https://github.com/JonasAbde/friday-voice-app)** - Flutter/BLoC voice-assistant prototype with WebSockets, speech-to-text, text-to-speech, and automated tests.
+- **[Friday Skills](https://github.com/JonasAbde/friday-skills)** - reusable agent skills and workflow specifications.
+- **[LeadRadar](https://github.com/JonasAbde/leadradar)** - public Python/FastAPI business-intelligence prototype.
 
-- Problem
-- Solution idea
-- Tools and architecture
-- What I built or explored
-- What I learned
-- Next steps
+## How I use AI in development
 
----
-
-## How I build with AI
-
-My process is practical and iterative:
-
-1. Find a real workflow or problem
-2. Break it into clear steps
-3. Build a small prototype
-4. Test it against real use cases
-5. Improve the workflow
-6. Document what works and what needs to improve
-
-I am especially interested in AI tools that are useful in daily operations: systems that help people save time, make better decisions, and reduce repetitive work.
-
----
+I use coding agents as implementation collaborators. My responsibility is the problem definition, requirements, architecture direction, task decomposition, review, testing, security decisions, deployment, and operational validation. I do not present generated code as proof by itself; the proof is a working system, traceable changes, tests, documentation, and the ability to explain the design decisions.
 
 ## Technical toolbox
 
-### Software and web
+**Support & operations:** Microsoft 365, Okta, ServiceNow, Boltrics WMS, Windows, Linux, onboarding, access management, workstation deployment, troubleshooting.
 
-- JavaScript / TypeScript
-- React
-- Next.js
-- Node.js
-- HTML / CSS
-- REST APIs
-- GitHub-based development workflows
+**Development:** JavaScript, TypeScript, React, Next.js, Node.js, Python, FastAPI, Flutter/Dart, REST APIs, WebSockets.
 
-### AI and automation
+**Data & infrastructure:** PostgreSQL, SQLite, Supabase, SQLAlchemy, Docker, Cloudflare, Fly.io, nginx, systemd.
 
-- OpenAI / LLM-based tools
-- AI agents and prompt engineering
-- Workflow automation
-- Structured data workflows
-- Tool-based AI systems
-- AI-assisted prototyping
+**Engineering practices:** Git/GitHub, pull requests, automated tests, CI/CD, security reviews, release gates, technical documentation, and production verification.
 
-### Data and backend basics
+## Current direction
 
-- Supabase / PostgreSQL basics
-- SQLite basics
-- API-based integrations
-- Basic backend architecture
+I am looking for junior and hands-on roles where technical support, operations, users, and software meet - especially IT Support, Application Support, Technical Operations, Implementation, Automation, and internal tools.
 
-### Systems and IT technology
-
-- Python basics
-- MicroPython
-- Docker basics
-- Linux server administration basics
-- Networking concepts
-- VLAN, DHCP, DNS, routing basics
-- Firewall and security principles
-- Raspberry Pi / Pico projects
-- IoT and embedded systems basics
-
----
-
-## What I am looking for
-
-I am interested in student roles, internships, and junior opportunities where I can work with:
-
-- Practical AI projects
-- Automation
-- Internal tools
-- APIs and integrations
-- Software prototypes
-- Operations technology
-- Business process improvement
-
-I learn best by building, testing, and improving real systems.
-
----
+- [Selected project portfolio](PROJECTS.md)
+- [Current focus](NOW.md)
+- [Technical stack](STACK.md)
+- [How I build](BUILDING.md)
 
 ## Contact
 
-GitHub: https://github.com/JonasAbde
-
-Open to student jobs, internships, freelance projects, and collaborations around AI, automation, and practical software systems.
+- LinkedIn: **https://www.linkedin.com/in/jonas-abde-22691a12a**
+- Email: **empire1266@gmail.com**
