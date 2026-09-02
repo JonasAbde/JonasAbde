@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "verify:links": "node scripts/check-public-links.mjs"
+    "verify:links": "node scripts/check-public-links.mjs",
+    "verify:local-gate": "node scripts/check-local-gate.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.4",
