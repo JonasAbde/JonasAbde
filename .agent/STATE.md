@@ -4,10 +4,10 @@
 
 - Status: `PROFILE-LIVE` (portfolio site served by the existing GitHub Pages / Cloudflare Pages contract; this repository is the source of truth for the source files but not for the live deployment).
 - Branch: `main`
-- HEAD: `21e4353` (post slice: lint fixes + concise landing page + community/research operating doc + AGENTS.md + `.agent/` ledger seed).
-- Remote: `origin/main` — local ahead 3, behind 0. No push in this session per `slice-brief.md` scope.
-- Last verified local state: `npm run lint` exit 0, `npm run build` exit 0, dev server `GET /` and `/projects` HTTP 200, `git diff --check` exit 0.
-- Active work item: `JONAS-URL-001` — re-probe the four public-repo URLs in `README.md` and `PROJECTS.md` and qualify any that no longer return HTTP 200.
+- HEAD: `dc6749e` (post slice: lint fixes + concise landing page + community/research operating doc + AGENTS.md + `.agent/` ledger seed + public-link probe + `verify:links` script wiring).
+- Remote: `origin/main` — local ahead 5, behind 0. No push in this session per `slice-brief.md` scope.
+- Last verified local state: `npm run lint` exit 0, `npm run build` exit 0, dev server `GET /` and `/projects` HTTP 200, `git diff --check` exit 0, `npm run verify:links` status PASS (4/4 URLs reachable and in source markdown).
+- Active work item: none — all backlog rows are DONE. The repo is in a clean steady state until the next bounded slice is requested or the owner opens the `git push` decision.
 - Session posture: owner-engineer loop on a portfolio repository. The "maturity ladder" gates from the cross-repo mandate do not apply here — see `AGENTS.md`.
 
 ## What is proven
@@ -25,9 +25,9 @@
 
 ## Next actions
 
-1. Re-probe the four public-repo URLs in `README.md` and `PROJECTS.md`; qualify or replace any that no longer return HTTP 200.
-2. When the owner wants to publish: `git push origin main` (slice-brief-scope permitting) and the standard Vite deploy path; do not touch the GitHub profile fields or community accounts from this repository.
-3. Re-baseline this state file and `BACKLOG.md` if a new bounded slice is requested.
+1. The only open path that lives outside this repository is `git push origin main`, which the `slice-brief.md` and `AGENTS.md` both reserve for explicit owner approval. When the owner opens that decision, the local gate is already green (lint, build, dev-server HTTP 200, `verify:links` PASS, `git diff --check`).
+2. Re-baseline this state file and `BACKLOG.md` if a new bounded slice is requested.
+3. The four public-repo URLs are re-probed on every `npm run verify:links` run; if any rot, qualify them in `README.md` and `PROJECTS.md` the same way `Project Exodus` is qualified.
 
 ## Session rule
 
