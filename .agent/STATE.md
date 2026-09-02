@@ -4,10 +4,10 @@
 
 - Status: `PROFILE-LIVE` (portfolio site served by the existing GitHub Pages / Cloudflare Pages contract; this repository is the source of truth for the source files but not for the live deployment).
 - Branch: `main`
-- HEAD: `928e725` (post slice: lint fixes + concise landing page + community/research operating doc).
-- Remote: `origin/main` — local ahead 2, behind 0. No push in this session per `slice-brief.md` scope.
+- HEAD: `21e4353` (post slice: lint fixes + concise landing page + community/research operating doc + AGENTS.md + `.agent/` ledger seed).
+- Remote: `origin/main` — local ahead 3, behind 0. No push in this session per `slice-brief.md` scope.
 - Last verified local state: `npm run lint` exit 0, `npm run build` exit 0, dev server `GET /` and `/projects` HTTP 200, `git diff --check` exit 0.
-- Active work item: `JONAS-DOC-001` (closed; see backlog). The repo is in a clean steady state until the next bounded slice is requested.
+- Active work item: `JONAS-URL-001` — re-probe the four public-repo URLs in `README.md` and `PROJECTS.md` and qualify any that no longer return HTTP 200.
 - Session posture: owner-engineer loop on a portfolio repository. The "maturity ladder" gates from the cross-repo mandate do not apply here — see `AGENTS.md`.
 
 ## What is proven
