@@ -1,10 +1,10 @@
 # Current Focus
 
+I am building a focused transition into hands-on IT and software work through documented support experience, operational responsibility, and selected systems that I can explain and demonstrate.
+
 ## Work
 
 I currently run **Rendetalje** and work with customer operations, planning, booking, invoicing, lead follow-up, digital workflows, and production systems.
-
-I am not currently enrolled as a student. I am making a focused transition into the IT industry through documented support experience, operational responsibility, and selected software systems that I can explain and demonstrate.
 
 ## Roles I am targeting
 
@@ -25,13 +25,20 @@ Secondary:
 
 ## Current technical priorities
 
-- Apply the prepared LinkedIn profile package so CV, LinkedIn, and GitHub tell the same story
-- Run the documented fresh verification commands for the four flagship systems
-- Store sanitized evidence with commit SHA, command, exit code, and known skipped gates
-- Rehearse the prepared two-minute project explanations and technical follow-up questions
-- Resolve the public-vault and historical-secret security blockers
-- Reduce duplicate and low-signal automated pull requests
-- Strengthen Microsoft 365, Azure, networking, service management, and security credentials
+- Strengthen Microsoft 365, Azure, networking, service management, and security foundations.
+- Improve application-support habits: reproduce the issue, isolate the boundary, communicate clearly, fix safely, and record the verification.
+- Build small, evidence-backed experiments around governed tool-using agents, MCP interoperability, AI observability, and portable runtimes.
+- Keep public project READMEs short, runnable where possible, and explicit about limitations.
+- Resolve the public-vault and historical-secret security blockers before using those repositories as portfolio evidence.
+
+## Community and research priorities
+
+- Make one useful community contribution each week: a focused answer, documentation correction, reproducible issue, review, or small pull request.
+- Publish one short research note or experiment result each month.
+- Prefer official specifications, source repositories, tests, and reproducible examples over trend summaries.
+- Keep customer data, private operational notes, secrets, and unverified production claims out of public communication.
+
+The detailed loop and templates live in [COMMUNITY_AND_RESEARCH.md](COMMUNITY_AND_RESEARCH.md).
 
 ## Flagship portfolio
 
@@ -58,9 +65,9 @@ Repository size and commit count are not treated as proof by themselves. Claims 
 
 ## Immediate next milestones
 
-- Execute the Rendetalje Worker typecheck, build, and controlled production/quote smoke
-- Execute Project Thea `verify:all` and separate environment-sensitive pilot gates
-- Execute FridayOS strict/local release gates and document provider/deploy blockers
-- Execute WorldMind `test:all`, `ci:gate`, audit, and release verification
-- Update public claims only from the resulting dated evidence logs
-- Start a consistent role-targeted application pipeline using the support and automation CV versions
+- Run the documented fresh verification commands for the flagship systems.
+- Store sanitized evidence with commit SHA, command, exit code, and known skipped gates.
+- Rehearse the prepared two-minute project explanations and technical follow-up questions.
+- Complete one small public community or documentation contribution.
+- Update public claims only from resulting dated evidence logs.
+- Start a consistent role-targeted application pipeline using the support and automation CV versions.

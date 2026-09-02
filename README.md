@@ -1,97 +1,60 @@
-# Jonas Abde — Technical Operations, Automation & Full-Stack
+# Jonas Abde
 
-I build and operate practical software systems around real business workflows. My background combines hands-on IT support, workplace deployment, customer operations, small-business ownership, and transparent AI-assisted development.
+I build practical software at the intersection of IT operations, automation, full-stack development, and trustworthy AI.
 
-I currently run **Rendetalje**, where I handle customer operations, planning, invoicing, lead follow-up, digital workflows, and production systems. I am targeting hands-on roles within **IT Support, Application Support, Technical Operations, Implementation, Automation, Internal Tools, and Junior Full-Stack Development**.
+I run **Rendetalje**, where I work with customer operations, planning, billing, follow-up, and production web workflows. I also build public tools and experiments around agent tooling, MCP integrations, voice interfaces, and deterministic simulations.
 
-> My working pattern: understand the operational problem, define the workflow and safety boundaries, build a focused solution, verify it, deploy it, and improve it from real use.
+I am looking for hands-on work in **IT Support, Application Support, Technical Operations, Implementation, Automation, Internal Tools, and Junior Full-Stack Development**.
 
-## Professional experience
+## What I care about
 
-- **Rendetalje — Owner & Operations Lead:** customer operations, scheduling, billing, lead management, digital workflows, automation, and production web systems.
-- **Lineage Logistics — Freelance IT Support Technician:** Microsoft 365, Okta, ServiceNow, Boltrics WMS, onboarding, access management, and onsite troubleshooting.
-- **Onitio / Danske Bank — On-call IT Deployment Technician:** workstation preparation, rollout, installation, and onsite technical support.
+- Turning messy operational work into clear, reviewable workflows.
+- Putting permissions, approvals, tests, and evidence around AI-assisted actions.
+- Building systems I can explain, operate, and improve — not just demos.
+- Documenting what is working, what is staged, and what is still research.
 
-## Selected engineering work
+## Selected public work
 
-### Rendetalje production platform
+| Repository | What you can inspect |
+| --- | --- |
+| [hermes-forge-cli](https://github.com/JonasAbde/hermes-forge-cli) | TypeScript CLI/TUI tooling for development, pack management, MCP tools, agents, and deployment workflows. |
+| [hermes-forge-mcp](https://github.com/JonasAbde/hermes-forge-mcp) | An MCP server that connects compatible AI clients to the Hermes Forge platform. |
+| [worldmind-core](https://github.com/JonasAbde/worldmind-core) | A simulation-first AI world engine built around authoritative event logs, memory, saves, branches, and evidence-gated outcomes. |
+| [leadradar](https://github.com/JonasAbde/leadradar) | A FastAPI prototype that combines public procurement, Danish company signals, scoring, alerts, and CRM workflow concepts. |
 
-A live React and TypeScript platform supporting a real cleaning business at **https://rendetalje.dk**.
+These repositories are at different stages. Their own READMEs are the source of truth for installation, current behavior, and limitations.
 
-- React 19, Vite, TypeScript strict mode, Tailwind CSS
-- Cloudflare Pages Functions and transactional email integration
-- Multi-step quote flow, pricing logic, SEO, structured data, accessibility, and production deployment
-- Product decisions and improvements driven by actual customer and operations workflows
+## Private work, explained openly
 
-**Status:** live production system. Repository is private because it contains active business material.
+Some of my strongest operational work is private because it contains active business or unreleased product material:
 
-### Project Thea
+- **Rendetalje production platform** — a live customer and business workflow.
+- **Project Thea** — a safety-aware health-tech prototype and pilot foundation.
+- **FridayOS** — a governed agent-operations platform with approvals, tools, jobs, artifacts, and audit trails.
 
-A private safety-aware Danish health-tech platform for structuring symptoms, preparing questions, creating summaries, and surfacing red-flag guidance without positioning itself as a doctor.
+I document the architecture, my responsibility, evidence, and known boundaries without publishing customer data or private source code. See [the selected project portfolio](PROJECTS.md), [the claims ledger](PORTFOLIO_EVIDENCE.md), and [the interview cases](INTERVIEW_CASES.md).
 
-- React, TypeScript, Node.js, SQLite, authentication, persistence, and rate limiting
-- Safety engine, automated product/safety evaluations, RAG, document interpretation, and structured export
-- Extensive test, security, trust, source-license, and release gates
+## How I work
 
-**Status:** advanced prototype/pilot platform. The conversational core and custom model track are still partly rule-based and R&D.
+1. Understand the real user or operational problem.
+2. Define the workflow, system boundary, and acceptance criteria.
+3. Build a focused slice and test failure paths as well as the happy path.
+4. Review, verify, document limitations, and improve from real use.
 
-### FridayOS
+Coding agents can help me implement faster, but I remain responsible for the problem definition, architecture direction, review, testing, security decisions, deployment direction, and operational validation.
 
-A private governed agentic operations platform covering workspaces, tools, providers, approvals, permissions, jobs, artifacts, usage, audit trails, and deployment verification.
+## What I am exploring now
 
-- Next.js App Router and API architecture
-- JSON, PGlite, and PostgreSQL repository adapters
-- Security scanning, negative-path tests, local CI profiles, backups, migrations, and deploy verification
+- Governed tool-using agents and MCP interoperability.
+- Observable AI workflows, evaluation, and privacy-aware traces.
+- Portable and local runtimes that connect my systems and embedded background to newer platform technology.
+- More useful participation in open-source discussions, documentation, issues, and focused pull requests.
 
-**Status:** active platform foundation. Some provider activation and production verification gates remain staged.
-
-### WorldMind Core
-
-A public deterministic simulation and gameplay engine with agent memory, relationships, evidence-gated hidden truth, authoritative event logs, SQLite saves, branching timelines, and browser play/authoring tools.
-
-- TypeScript/Node.js, SQLite, CLI and browser interfaces
-- Deterministic restore and event-log validation
-- Custom scenario, state, risk, content, asset, and release gates
-
-Repository: **[JonasAbde/worldmind-core](https://github.com/JonasAbde/worldmind-core)**
-
-## Additional public work
-
-- **[Project Exodus](https://github.com/JonasAbde/project-exodus)** — Danish-first AI platform in developer preview with FastAPI, React, OpenAI-compatible endpoints, RAG, provider routing, model/eval tooling, and readiness surfaces.
-- **[LeadRadar](https://github.com/JonasAbde/leadradar)** — FastAPI procurement and lead-intelligence prototype using TED, CVR enrichment, alerts, scoring, and CRM queue concepts.
-- **[Friday Voice App](https://github.com/JonasAbde/friday-voice-app)** — Flutter/BLoC voice-assistant prototype using WebSockets, speech-to-text, text-to-speech, and automated tests.
-- **[Friday Skills](https://github.com/JonasAbde/friday-skills)** — reusable agent skills and workflow specifications.
-
-## How I use AI in development
-
-I use coding agents as implementation collaborators. My responsibility is the problem definition, requirements, architecture direction, task decomposition, review, testing, security decisions, deployment, and operational validation.
-
-I do not use repository size or generated code as proof by itself. The evidence is a coherent system, traceable decisions, reproducible checks, documented limitations, and the ability to explain and modify the implementation.
-
-## Technical toolbox
-
-**Support & operations:** Microsoft 365, Okta, ServiceNow, Boltrics WMS, Windows, Linux, onboarding, access management, workstation deployment, troubleshooting.
-
-**Development:** JavaScript, TypeScript, React, Next.js, Node.js, Python, FastAPI, Flutter/Dart, REST APIs, WebSockets.
-
-**Data & infrastructure:** PostgreSQL, SQLite, Supabase, SQLAlchemy, Docker, Cloudflare, Fly.io, nginx, systemd.
-
-**Engineering practices:** Git/GitHub, pull requests, automated testing, CI/CD, security reviews, release gates, technical documentation, and production verification.
-
-## Evidence and current direction
-
-- [Verified portfolio and claims ledger](PORTFOLIO_EVIDENCE.md)
-- [Selected project portfolio](PROJECTS.md)
-- [Flagship interview cases and architecture explanations](INTERVIEW_CASES.md)
-- [Fresh verification runbook](VERIFICATION_RUNBOOK.md)
-- [LinkedIn profile package](LINKEDIN_PROFILE.md)
-- [Current focus](NOW.md)
-- [Technical stack](STACK.md)
-- [How I build](BUILDING.md)
-
-I am looking for junior and hands-on roles where technical support, operations, users, and software meet — particularly IT Support, Application Support, Technical Operations, Implementation, Automation, and internal tools.
+See [Current Focus](NOW.md) and [Community & Research](COMMUNITY_AND_RESEARCH.md) for the working track.
 
 ## Contact
 
-- LinkedIn: **https://www.linkedin.com/in/jonas-abde-22691a12a**
-- Email: **empire1266@gmail.com**
+- [LinkedIn](https://www.linkedin.com/in/jonas-abde-22691a12/)
+- [GitHub](https://github.com/JonasAbde)
+
+I am open to practical collaboration, technical feedback, and opportunities where users, operations, and software meet.

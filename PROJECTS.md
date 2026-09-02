@@ -6,9 +6,9 @@ Repository size and commit count are not selection criteria by themselves. Some 
 
 ## 1. Rendetalje production platform
 
-**Type:** live customer-facing business platform  
-**Status:** production  
-**Live:** https://rendetalje.dk  
+**Type:** live customer-facing business platform
+**Status:** production
+**Live:** https://rendetalje.dk
 **Repository:** private
 
 A React and TypeScript platform supporting quotes, pricing, customer enquiries, search visibility, and digital workflows for a real cleaning company.
@@ -34,8 +34,8 @@ This is the strongest business and production case, but its current package scri
 
 ## 2. Project Thea
 
-**Type:** private safety-aware health-tech platform  
-**Status:** advanced prototype and pilot foundation  
+**Type:** private safety-aware health-tech platform
+**Status:** advanced prototype and pilot foundation
 **Repository:** private
 
 A Danish citizen-centered platform for understanding health information, structuring symptoms and timelines, preparing questions, generating summaries, and surfacing red-flag guidance.
@@ -61,8 +61,8 @@ The product is not an autonomous doctor. The canonical project state documents a
 
 ## 3. FridayOS
 
-**Type:** private governed agentic operations platform  
-**Status:** active foundation and staged release work  
+**Type:** private governed agentic operations platform
+**Status:** active foundation and staged release work
 **Repository:** private
 
 A control plane for agents, providers, workspaces, approvals, permissions, runtime jobs, artifacts, usage records, audit trails, MCP tools, and operational verification.
@@ -87,8 +87,8 @@ The platform has substantial engineering foundations, but some provider activati
 
 ## 4. WorldMind Core
 
-**Type:** public deterministic simulation and gameplay engine  
-**Status:** active v1 platform  
+**Type:** public deterministic simulation and gameplay engine
+**Status:** active v1 platform
 **Repository:** https://github.com/JonasAbde/worldmind-core
 
 A simulation-first engine where an authoritative event log drives agent memory, relationships, rumors, economy, incidents, saves, branches, and evidence-gated story outcomes.
@@ -113,9 +113,9 @@ The repository contains a long historical README and its default test command ex
 
 ## 5. Project Exodus
 
-**Type:** public Danish-first AI platform  
-**Status:** developer preview  
-**Repository:** https://github.com/JonasAbde/project-exodus
+**Type:** developer-preview AI platform
+**Status:** developer preview
+**Repository:** access-controlled or otherwise not anonymously verified; public link intentionally omitted
 
 A FastAPI and React platform combining OpenAI-compatible API surfaces, RAG, model/provider routing, sessions, evaluation tooling, documentation, and readiness views.
 
@@ -128,14 +128,14 @@ A FastAPI and React platform combining OpenAI-compatible API surfaces, RAG, mode
 
 ### Honest boundary
 
-It remains a developer preview. Billing, some traces, SDK hardening, hosted CI availability, and parts of the data/model pipeline are incomplete or environment-dependent.
+It remains a developer preview. Billing, some traces, SDK hardening, hosted CI availability, and parts of the data/model pipeline are incomplete or environment-dependent. It should not be presented as a public repository until an anonymous visitor can reach the intended source and documentation.
 
 ---
 
 ## 6. LeadRadar
 
-**Type:** public business-intelligence prototype  
-**Status:** prototype / shipping preparation  
+**Type:** public business-intelligence prototype
+**Status:** prototype / shipping preparation
 **Repository:** https://github.com/JonasAbde/leadradar
 
 A FastAPI application that aggregates public procurement and company signals, enriches them, and scores potential leads.
@@ -168,6 +168,6 @@ A project is described according to its actual state:
 2. **Developer preview, prototype, or R&D** when launch or product gates remain open.
 3. Test totals are used only after a fresh reproducible run.
 4. Private repositories are supported with architecture, selected code review, screenshots, or live demonstration rather than unverifiable claims.
-5. AI-assisted code is described transparently. My contribution is requirements, architecture direction, decomposition, review, debugging, verification, security, deployment, and operational ownership—not a claim that every line was typed manually.
+5. AI-assisted code is described transparently. My contribution is requirements, architecture direction, decomposition, review, debugging, verification, security, deployment, and operational ownership — not a claim that every line was typed manually.
 
 See [PORTFOLIO_EVIDENCE.md](PORTFOLIO_EVIDENCE.md) for the current claims ledger and known limitations.
