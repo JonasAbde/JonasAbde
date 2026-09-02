@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -17,7 +17,14 @@ export default function Navbar() {
   }, []);
 
   // Close mobile menu when route changes
-  useEffect(() => setOpen(false), [location.pathname]);
+  // ponytail: prev-path guard avoids cascading render on initial mount and on every render where the effect re-runs without a real path change
+  const prevPath = useRef(location.pathname);
+  useEffect(() => {
+    if (prevPath.current !== location.pathname) {
+      prevPath.current = location.pathname;
+      setOpen(false);
+    }
+  }, [location.pathname]);
 
   return (
     <header

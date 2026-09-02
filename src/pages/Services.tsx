@@ -43,7 +43,7 @@ export default function ServicesPage() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {services.map((service, _idx) => {
+            {services.map((service) => {
               const IconComponent = iconMap[service.iconName]
               return (
                 <GlassCard key={service.id} className="flex flex-col">
