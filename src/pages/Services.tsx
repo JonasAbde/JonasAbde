@@ -27,7 +27,7 @@ export default function ServicesPage() {
     <>
       <SeoHelmet
         title="Services"
-        description="Jeg tilbyder udvikling af hjemmesider, webapps, AI-automation, forretningssystemer, bookingportaler og SEO — tilpasset din virksomhed."
+        description="Jeg tilbyder afgrænsede opgaver inden for IT-support, websoftware, workflow-automatisering og teknisk kvalitet."
         path="/services"
       />
       <Section id="services">
@@ -37,8 +37,8 @@ export default function ServicesPage() {
               Services
             </h1>
             <p className="text-lg text-pearl-dark max-w-2xl mx-auto">
-              End-to-end udvikling fra hjemmeside til AI-drevne systemer —
-              skræddersyet til din forretning.
+              Praktisk IT-hjælp og målrettede tekniske opgaver med tydelige leverancer,
+              test og dokumentation.
             </p>
           </div>
 
