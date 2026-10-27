@@ -1,73 +1,34 @@
-# Current Focus
+# Current focus · Jonas Abde
 
-I am seeking hands-on IT and software work in Aarhus and East Jutland, drawing on enterprise support and deployment experience, operational responsibility, and selected technical projects I can explain and demonstrate.
+**Updated: 27 October 2026**
 
-## Work
+I am pursuing IT support, application support, workplace implementation, technical operations and junior engineering opportunities around Aarhus, East Jutland or suitable remote roles.
 
-I currently run **Rendetalje** and work with customer operations, planning, booking, invoicing, lead follow-up, digital workflows, and production systems.
+## Current priorities
 
-## Roles I am targeting
+1. **Professional IT:** Build on practical Lineage Logistics IT-support experience and Onitio/Danske Bank workstation deployment. Expand troubleshooting, Microsoft 365, networking and documentation skills.
+2. **Aftergraph:** Continue the private Tilsyn platform and its engineering ecosystem with clear test evidence, approval boundaries and responsible use of AI coding tools.
+3. **Rendetalje:** Operate the real customer-service business and preserve the active private `Rendetalje-worker` without interrupting production.
+4. **Portfolio and job applications:** Present accurate technical work. Keep old personal prototypes private, and reference the public Aftergraph repositories when inspectable code is useful.
 
-Primary:
+## Public engineering examples
 
-- IT Support
-- Application Support
-- Technical Operations
-- Implementation Specialist
-- Technical Customer Support
+- [Aftergraph engineering overview](AFTERGRAPH.md)
+- [WORKS execution](https://github.com/Aftergraph/works-execution)
+- [Studio](https://github.com/Aftergraph/studio)
+- [Aftergraph documentation](https://github.com/Aftergraph/docs)
+- [Rendetalje customer website](https://rendetalje.dk)
 
-Secondary:
+**Project boundaries:** Tilsyn source remains private and in development; old personal demos such as WorldMind, LeadRadar and Forge are no longer publicly accessible. A portfolio or test document is not by itself deployment evidence.
 
-- Automation and integrations
-- Internal tools
-- Junior full-stack development
-- AI platform and agent operations
+## Current release and security blockers
 
-## Current technical priorities
+- Public React portfolio improvements are tracked in PR #6. Locally passing tests do not replace hosted CI or independent review.
+- GitHub Actions has been unable to start due to a GitHub account billing lock, not because its test steps failed.
+- Old exposed GitHub/Supabase/Brave credentials require provider-level revocation evidence. Private repository status alone does not revoke leaked tokens.
 
-- Strengthen Microsoft 365, Azure, networking, service management, and security foundations.
-- Improve application-support habits: reproduce the issue, isolate the boundary, communicate clearly, fix safely, and record the verification.
-- Build small, evidence-backed experiments around governed tool-using agents, MCP interoperability, AI observability, and portable runtimes.
-- Keep public project READMEs short, runnable where possible, and explicit about limitations.
-- Audit older repositories for personal data and credential exposure; keep repositories with unresolved security risks out of portfolio promotion.
+## Working principles
 
-## Community and research priorities
+Use reproducible tests, exact commit identifiers, review and deployment checks. Describe practical experience accurately, distinguish finished user-facing behavior from prototypes, and keep secrets, private source and customer information out of public documents.
 
-- Make one useful community contribution each week: a focused answer, documentation correction, reproducible issue, review, or small pull request.
-- Publish one short research note or experiment result each month.
-- Prefer official specifications, source repositories, tests, and reproducible examples over trend summaries.
-- Keep customer data, private operational notes, secrets, and unverified production claims out of public communication.
-
-The detailed loop and templates live in [COMMUNITY_AND_RESEARCH.md](COMMUNITY_AND_RESEARCH.md).
-
-## Flagship portfolio
-
-1. **Rendetalje production platform** — real customer and business workflows
-2. **Tilsyn** — private, in-development AI-assisted software and operations platform; no public release or production claim
-3. **WorldMind Core** — public deterministic simulation and gameplay engine
-4. **LeadRadar** — public FastAPI lead-intelligence prototype
-
-Historical or supporting cases include Project Thea, FridayOS, Project Exodus, Foodtruck Fiesta web operations, Rendetalje Workspace / Nora, and Friday Voice App. Their older case-study documents are dated snapshots, not current release evidence.
-
-## Working principle
-
-I use AI coding agents as implementation collaborators while retaining responsibility for problem definition, requirements, architecture direction, review, testing, deployment, security decisions, and operational validation.
-
-Repository size and commit count are not treated as proof by themselves. Claims must be supported by working behavior, reproducible checks, documentation, and a clear explanation of my own role.
-
-## Prepared career assets
-
-- Targeted IT Support and Automation/Full-Stack CV versions, with and without profile photo
-- Verified portfolio claims ledger
-- Ready-to-paste LinkedIn package
-- Four flagship interview cases with architecture diagrams
-- Repository-specific fresh verification runbook
-
-## Immediate next milestones
-
-- Run the documented fresh verification commands for the flagship systems.
-- Store sanitized evidence with commit SHA, command, exit code, and known skipped gates.
-- Rehearse the prepared two-minute project explanations and technical follow-up questions.
-- Complete one small public community or documentation contribution.
-- Update public claims only from resulting dated evidence logs.
-- Start a consistent role-targeted application pipeline using the support and automation CV versions.
+[Profile](README.md) · [Aftergraph](AFTERGRAPH.md) · [Interview cases](INTERVIEW_CASES.md) · [Evidence ledger](PORTFOLIO_EVIDENCE.md)

@@ -1,125 +1,42 @@
-# Portfolio Evidence and Claims Ledger
+# Portfolio evidence and claims policy
 
-**Review date:** 2026-07-11 (historical evidence snapshot; not refreshed for October 2026)  
-**Current naming note:** Tilsyn is the current private platform direction; the FridayOS entries below describe historical work, not a current release assertion.  
-**Purpose:** provide a truthful, recruiter-safe record of what each flagship project demonstrates, what evidence exists, and what must not be overstated.
+**Updated: 27 October 2026** · This document distinguishes public evidence, private development and historical experiments.
 
-This document is based on repository metadata, README files, package scripts, canonical status documents, and pull-request history. It is **not** a substitute for a fresh local test/build/deployment run. Test totals and live claims should be refreshed immediately before use in a CV, application, case study, or interview.
+## What a recruiter can verify publicly
 
-## Status definitions
+| Work | Claim supported | Evidence or constraint |
+| --- | --- | --- |
+| [Aftergraph](https://github.com/Aftergraph) | Current engineering workspace with publicly inspectable organisational projects | Public source and docs do not imply every feature is released |
+| [Aftergraph WORKS](https://github.com/Aftergraph/works-execution) | Technical execution/workflow architecture and development | Verify individual features on a named commit before quoting test or deployment success |
+| [Aftergraph Studio](https://github.com/Aftergraph/studio) | Developer-facing interface and tooling work | Some functions may remain in development |
+| **Tilsyn** | Private, in-development AI/software and operations work | No private source, confidential architecture, customer information or credentials published |
+| [Rendetalje](https://rendetalje.dk) | Live customer-facing service website and real business workflow experience | Do not claim a complete autonomous accounting, payroll or booking suite from a public webpage |
+| **Lineage Logistics (2025)** | Practical workplace IT support, onboarding, Microsoft 365, Okta, ServiceNow | Not a claim of senior cloud architecture or specialist security certification |
+| **Onitio / Danske Bank (2025)** | Onsite device preparation, deployment and troubleshooting | Project-based work, not a claim of several years in full-time engineering |
 
-- **Production:** supports a live operational or customer workflow.
-- **Advanced prototype / pilot foundation:** substantial working software with open operational, governance, or launch gates.
-- **Developer preview:** usable for technical evaluation, but incomplete or environment-dependent.
-- **Prototype:** demonstrates an end-to-end concept without full production hardening.
-- **R&D:** experimental model, data, or architecture work that must not be presented as proven production capability.
+## Visibility and historical context
 
-## Evidence matrix
+On 27 October 2026, the personal GitHub account had **137 repositories: one public profile repository and 136 private repositories**. The formerly public Forge, WorldMind and LeadRadar projects are no longer anonymously accessible. Four old prototypes were deliberately archived privately; the active Rendetalje worker remains private and unarchived.
 
-| Project | Current claim | Evidence reviewed | Known limitation | Recruiter-safe wording |
-|---|---|---|---|---|
-| Rendetalje production platform | Live production business platform | React/Vite/TypeScript package, live domain, Cloudflare-oriented implementation and business workflow documentation | Root scripts currently show build and TypeScript validation, not a broad unit/E2E suite | Built and operates a live React/TypeScript customer platform for a real service business |
-| Project Thea | Advanced health-tech prototype and pilot foundation | Canonical product state, React/TypeScript/Node/SQLite architecture, safety/product evals, RAG, trust/security/source gates, extensive test tooling | Conversation core mainly rule-based; custom models remain R&D; identity and launch/governance gates are incomplete | Designed and governed a safety-aware health-tech platform with API, persistence, RAG, evals, security gates, and structured export |
-| FridayOS | Governed agentic operations platform in staged release work | Next.js package scripts, repository adapters, security scan, local CI profiles, tests, migration/backup/deploy verification tooling, remaining-work document | Live-provider activation, production smoke, asset, and some release gates remain staged | Built the architecture and verification workflow for an agentic operations control plane with approvals, tools, jobs, artifacts, and audit trails |
-| WorldMind Core | Public deterministic simulation/game engine | Public repository, TypeScript/Node/SQLite package, custom validators, save/branch/diff workflows, browser play and authoring tools | Default test command excludes selected patterns; historical README contains inconsistencies; fresh full gate required before quoting counts | Built a deterministic agent simulation engine with authoritative event logs, saves, branching, evidence guards, and custom release validators |
-| Project Exodus | Developer-preview AI platform | Repository metadata and FastAPI/React architecture, OpenAI-compatible endpoints, RAG, provider routing, model/eval and readiness tooling; anonymous public visibility currently unverified | Billing and some traces are placeholders; SDK/data/model/CI work remains incomplete or environment-dependent; do not publish as a public repository until access is reverified | Developed a Danish-first AI platform preview with FastAPI, React, compatible APIs, RAG, provider routing, and readiness tooling |
-| LeadRadar | Public business-intelligence prototype | Public FastAPI code, TED/CVR/RSS integrations, auth/CSRF, CRM queue, alerts, backup and test files | Raw-IP deployment record, missing HTTPS/domain/SMTP/Stripe/scheduling, limited user data, some weak tests | Built a FastAPI lead-intelligence prototype integrating procurement data, company enrichment, scoring, alerts, and CRM workflows |
-| Foodtruck Fiesta web platform | Live supporting web/backend case | Live domain documentation, static/Tailwind frontend, FastAPI/SQLite backend, admin APIs, nginx/systemd, backup and monitoring | Smaller engineering surface and private repository; current live state should be checked before quoting route or event totals | Delivered and operated a live catering website with booking APIs, database-backed admin functions, VPS deployment, monitoring, and SEO |
-| Rendetalje Workspace / Nora | Production agent-operations workspace | Private Hermes workspace, skills, scripts, golden-case evals, memory separation, approval/data-safety policies | Not a conventional deployed web application; effectiveness must be demonstrated through workflows and eval evidence | Built a versioned operations-agent workspace with reusable skills, safety policies, evaluations, and automation workflows |
+Old published project URLs, benchmark totals and README claims are historical references. They should not be sent to recruiters as currently public demonstrations. The source remains available privately to the owner, subject to appropriate access controls.
 
-## Verified role statement
+## Current proof and open gates
 
-Across the flagship projects, my defensible responsibility is:
+- The GitHub profile README and public Aftergraph overview have been updated to the current workspace.
+- **Portfolio web application:** PR [#6](https://github.com/JonasAbde/JonasAbde/pull/6) contains accuracy, contact and projects fixes. Its local exact-head build, regression and browser QA results are documented in the PR, but it remains a draft and is **not merged or deployed**.
+- **GitHub Actions billing:** GitHub has reported that the hosted job cannot start because of an account billing issue. Do not treat local tests as hosted CI. Exact-head CI and independent review remain release gates.
+- **Security:** Historic exposed keys may persist in copies and Git history even after repositories become private. Provider-level revocation must be verified individually in private administrative workflows.
 
-- identify the user and operational problem;
-- define product requirements, scope, workflow, and acceptance criteria;
-- choose architecture direction and system boundaries;
-- decompose work for coding agents and tools;
-- review changes, detect contradictions, and prioritize fixes;
-- define and run test, security, release, and deployment gates;
-- operate or validate the resulting system in real workflows;
-- document limitations rather than presenting roadmap work as shipped.
+## How I describe my role
 
-This does **not** mean every code line was written manually. I use AI coding agents as implementation collaborators and remain accountable for the decisions, review, verification, and operational outcome.
+I work on requirements, system boundaries, practical implementations, AI-assisted coding, review, troubleshooting, documentation, tests, release decisions and business operations. I do **not** claim to have manually authored every source line or to hold an IT-Technology degree; those studies were not completed.
 
-## Claims that require fresh verification
+## Rules for technical claims
 
-Do not place the following in a CV or application until a current command/output or live check has been recorded:
+1. **Version-specific evidence:** Identify commit SHA, operating environment, command, exit code, relevant coverage and skipped tests.
+2. **Honest maturity:** Separate customer-facing live behavior, prototypes, planned functions and production hardening.
+3. **No secrets or customer data:** Do not publish private source, internal configuration, security incident evidence or customer records.
+4. **Independent review:** Preserve legitimate code-owner approvals and required checks, rather than bypassing them for a green badge.
+5. **Job relevance:** Explain real support/deployment experience and practical project decisions instead of implying senior qualifications.
 
-- exact test totals;
-- exact coverage percentages;
-- benchmark scores;
-- uptime or performance figures;
-- active-user or customer counts;
-- conversion, productivity, or time-saving percentages;
-- production-readiness claims;
-- live endpoint availability;
-- claims that a model is trained, promoted, or used in the main product path.
-
-## Claims to avoid
-
-- “Senior full-stack engineer” or “AI engineer” without role-specific evidence.
-- “Production-ready” for Thea, FridayOS, Exodus, LeadRadar, or experimental model work.
-- “Built Hermes Agent” when the upstream framework is from Nous Research.
-- “Wrote all code” when coding agents contributed implementation.
-- “1,200+ tests pass” or similar totals based only on historical docs or PR descriptions.
-- “100% security/compliance” or unsupported automation/productivity percentages.
-
-## Interview evidence package to prepare
-
-For each project selected for a specific job, prepare:
-
-1. A two-minute problem and outcome explanation.
-2. A simple architecture diagram.
-3. One concrete data flow or user workflow.
-4. One failure, defect, or security risk that was found and corrected.
-5. One live or recorded demonstration.
-6. A current test/build/verification log.
-7. A clear explanation of personal responsibility and AI-agent contribution.
-8. A known-limitations section.
-
-## Recommended project selection by role
-
-### IT Support / Technical Operations
-
-1. Rendetalje production platform and operations
-2. Rendetalje Workspace / Nora
-3. Foodtruck Fiesta web/backend operations
-4. Lineage Logistics and Onitio experience remain more important than project depth
-
-### Application Support / Implementation
-
-1. Rendetalje production platform
-2. Project Thea
-3. LeadRadar
-4. Foodtruck Fiesta web platform
-
-### Automation / Internal Tools
-
-1. FridayOS
-2. Rendetalje Workspace / Nora
-3. Project Thea
-4. Rendetalje production platform
-
-### Junior Full-Stack
-
-1. Project Thea
-2. Rendetalje production platform
-3. WorldMind Core
-4. Project Exodus or LeadRadar depending on the stack
-
-### AI Platform / Agent Operations
-
-1. FridayOS
-2. Project Exodus
-3. Project Thea
-4. Rendetalje Workspace / Nora
-
-## Security blockers outside the portfolio narrative
-
-The following must be resolved independently of CV/profile improvements:
-
-- make the public personal vault repository private and review exposed operational/personal content;
-- complete rotation of any credentials previously committed to the REN repository;
-- purge exposed credentials from Git history where required;
-- avoid publishing customer data, internal memory, secrets, production logs, or personal operational notes in recruiter-facing repositories.
+[Return to profile](README.md) · [Current interview cases](INTERVIEW_CASES.md) · [Aftergraph overview](AFTERGRAPH.md)
