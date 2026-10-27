@@ -1,5 +1,20 @@
 # Selected Project Portfolio
 
+## Current shortlist for technical recruiters (October 2026)
+
+For **IT support and operations**, start with the practical employer experience in the [profile README](README.md): Lineage Logistics (Microsoft 365, Okta, ServiceNow, onboarding and workplace troubleshooting) and Onitio / Danske Bank (onsite deployment).
+
+For **software and automation**, these are the most defensible examples:
+
+- **Rendetalje:** working customer-facing React/TypeScript website and quote workflow. [Customer site](https://rendetalje.dk). Do not infer a complete internal payroll, accounting or booking suite from the public website.
+- **Tilsyn:** private, ongoing AI/software systems engineering. Work in progress, not a public production release; no customer data or private implementation details are shared here.
+- **[WorldMind Core](https://github.com/JonasAbde/worldmind-core):** inspectable experimental simulation software with event-oriented modeling and verification tooling.
+- **[LeadRadar](https://github.com/JonasAbde/leadradar):** inspectable FastAPI prototype; live hosting, integration readiness and all claimed metrics need fresh evidence.
+
+**Provenance:** Detailed project writeups below are historical case notes first prepared in July 2026. Some retain earlier product names (including FridayOS). They are preserved for technical interview context, not as an authoritative statement about current platform naming, deployed state, professional employment duration, or passing CI. The [evidence ledger](PORTFOLIO_EVIDENCE.md) specifies what requires fresh verification.
+
+---
+
 This portfolio prioritizes projects that demonstrate real operational use, coherent architecture, testing and verification discipline, deployment experience, and decisions I can explain in a technical interview.
 
 Repository size and commit count are not selection criteria by themselves. Some projects are private because they contain active business logic or unreleased product code.
