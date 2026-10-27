@@ -1,6 +1,7 @@
 # Portfolio Evidence and Claims Ledger
 
-**Review date:** 2026-07-11  
+**Review date:** 2026-07-11 (historical evidence snapshot; not refreshed for October 2026)  
+**Current naming note:** Tilsyn is the current private platform direction; the FridayOS entries below describe historical work, not a current release assertion.  
 **Purpose:** provide a truthful, recruiter-safe record of what each flagship project demonstrates, what evidence exists, and what must not be overstated.
 
 This document is based on repository metadata, README files, package scripts, canonical status documents, and pull-request history. It is **not** a substitute for a fresh local test/build/deployment run. Test totals and live claims should be refreshed immediately before use in a CV, application, case study, or interview.
