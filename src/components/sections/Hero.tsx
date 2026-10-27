@@ -35,7 +35,7 @@ export default function Hero() {
           className="flex flex-col items-center gap-6"
         >
           <motion.div variants={fadeUp}>
-            <Badge variant="primary">Fullstack Developer & AI Automation</Badge>
+            <Badge variant="primary">IT Support · Technical Operations · Software & Automation</Badge>
           </motion.div>
 
           <motion.h1 variants={fadeUp} className="text-5xl sm:text-7xl lg:text-8xl font-display text-gradient leading-tight">
@@ -43,12 +43,12 @@ export default function Hero() {
           </motion.h1>
 
           <motion.p variants={fadeUp} className="max-w-2xl text-lg sm:text-xl text-pearl-dark/80 leading-relaxed">
-            Jeg bygger digitale produkter – fra hjemmesider og webapps til AI-agenter og forretningssystemer.
+            Jeg kombinerer praktisk IT-support, deployment og teknisk fejlfinding med udvikling af software og automatisering til virkelige arbejdsgange.
           </motion.p>
 
           <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 mt-4">
-            <Button to="/kontakt" variant="primary" size="lg">
-              Fortæl om din opgave
+            <Button to="/om" variant="primary" size="lg">
+              Se min erfaring
             </Button>
             <Button to="/projekter" variant="outline" size="lg">
               Se projekter

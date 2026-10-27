@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "verify:links": "node scripts/check-public-links.mjs",
-    "verify:local-gate": "node scripts/check-local-gate.mjs"
+    "verify:local-gate": "node scripts/check-local-gate.mjs",
+    "verify:integrity": "node scripts/check-portfolio-integrity.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.4",

@@ -11,7 +11,7 @@ export default function AboutPage() {
     <>
       <SeoHelmet
         title="Om mig"
-        description="Fullstack-udvikler og AI-automatiseringsekspert baseret i Aarhus. Læs om min baggrund, tilgang og de teknologier jeg arbejder med."
+        description="Praktisk erfaring med IT-support, workstation deployment, React/TypeScript og automation. Baseret i Aarhus."
         path="/om"
       />
       <Section>
@@ -24,18 +24,19 @@ export default function AboutPage() {
               </h1>
               <div className="space-y-5 text-pearl/80 leading-relaxed">
                 <p>
-                  Jeg hedder Jonas Abde og er fullstack-udvikler og AI-automatiseringsekspert baseret i Aarhus.
-                  Jeg har en baggrund inden for IT med speciale i network, security og embedded systems fra EAAA.
+                  Jeg hedder Jonas Abde og bor i Aarhus. Jeg har arbejdet med IT-support hos Lineage Logistics
+                  og projektbaseret workstation deployment for Onitio/Danske Bank. Jeg har fulgt
+                  IT-teknologuddannelsen ved Erhvervsakademi Aarhus, men har ikke afsluttet forløbet.
                 </p>
                 <p>
-                  Jeg bygger digitale produkter der løser reelle problemer — fra webapplikationer og API&apos;er
-                  til intelligente agent-systemer og komplette forretningsplatforme. Mit arbejde spænder fra
-                  enkle landingssider til komplekse multi-service systemer med AI-automation.
+                  Jeg arbejder med React, TypeScript, API&apos;er, Linux og automatisering, blandt andet
+                  i forbindelse med digitale arbejdsgange hos Rendetalje, som jeg driver. Andre
+                  systemprojekter er stadig prototyper eller under udvikling og bliver beskrevet som sådan.
                 </p>
                 <p>
-                  Jeg tror på at god teknologi skal være praktisk, gennemtænkt og leveret med omhu. Derfor
-                  arbejder jeg tæt sammen med dig om at forstå dine behov og levere en løsning der virker —
-                  ikke bare en der ser godt ud.
+                  Jeg prioriterer tydelig kommunikation, dokumenterbar fejlsøgning, tests og ærlig
+                  status for, hvad der virker i praksis. Jeg bruger også AI-værktøjer i udviklingsarbejdet,
+                  men er ansvarlig for krav, review og verifikation.
                 </p>
               </div>
 

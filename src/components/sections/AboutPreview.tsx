@@ -13,7 +13,7 @@ export default function AboutPreview() {
               Om mig
             </h2>
             <p className="text-pearl-dark/80 leading-relaxed mb-6">
-              Jeg er fullstack-udvikler og AI-automatiseringsekspert baseret i Aarhus. Jeg bygger digitale produkter der gør en forskel – fra webapplikationer og API&apos;er til intelligente agent-systemer og forretningsværktøjer.
+              Jeg har arbejdet med IT-support hos Lineage Logistics og onsite PC-deployment for Onitio/Danske Bank. I dag kombinerer jeg praktisk teknisk arbejde med TypeScript, automatisering og engineering i Aftergraph.
             </p>
             <Button to="/om" variant="outline">
               Læs mere om mig →
@@ -31,7 +31,7 @@ export default function AboutPreview() {
                       <path d="M20 21a8 8 0 1 0-16 0"/>
                     </svg>
                   </div>
-                  <p className="text-sm text-muted">Profilbillede kommer snart</p>
+                  <p className="text-sm text-muted">IT Support · Aftergraph</p>
                 </div>
             </div>
           </div>

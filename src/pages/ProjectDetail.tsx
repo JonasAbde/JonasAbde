@@ -92,7 +92,7 @@ export default function ProjectDetail() {
           {project.url && (
             <div className="mb-10">
               <Button href={project.url} variant="outline" size="lg">
-               Besøg site ↗
+                {project.url.includes('github.com/') ? 'Se kildekode ↗' : 'Besøg website ↗'}
               </Button>
             </div>
           )}
@@ -100,7 +100,7 @@ export default function ProjectDetail() {
           {/* CTA section */}
           <div className="mt-16 pt-10 border-t border-primary/10 text-center">
             <h2 className="text-2xl font-display text-gradient mb-4">
-              Vil du have noget lignende?
+              Interesseret i at samarbejde?
             </h2>
             <Button to="/kontakt" variant="primary" size="lg">
               Fortæl om din opgave
