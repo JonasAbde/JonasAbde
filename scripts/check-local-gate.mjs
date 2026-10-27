@@ -30,6 +30,7 @@ const localChecks = [
 if (!skipBuild) {
   localChecks.push({ name: 'build', command: [npmCmd, 'run', 'build'] })
 }
+localChecks.push({ name: 'verify:integrity', command: [npmCmd, 'run', 'verify:integrity'] })
 localChecks.push({ name: 'verify:links', command: [npmCmd, 'run', 'verify:links'] })
 
 function runCheck(check) {
