@@ -34,9 +34,15 @@ localChecks.push({ name: 'verify:links', command: [npmCmd, 'run', 'verify:links'
 
 function runCheck(check) {
   const start = Date.now()
-  const result = spawnSync(check.command[0], check.command.slice(1), {
+  // On Windows, npm.cmd must run via cmd.exe; avoid deprecated shell:true with args.
+  // The command is assembled only from this file's fixed, trusted check list.
+  const executable = isWindows ? (process.env.ComSpec ?? 'cmd.exe') : check.command[0]
+  const args = isWindows
+    ? ['/d', '/s', '/c', check.command.join(' ')]
+    : check.command.slice(1)
+  const result = spawnSync(executable, args, {
     encoding: 'utf8',
-    shell: isWindows,
+    windowsHide: true,
   })
   const stdout = (result.stdout ?? '').toString()
   const stderr = (result.stderr ?? '').toString()
