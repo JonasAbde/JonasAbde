@@ -5,9 +5,9 @@ export function generatePersonSchema(): Record<string, unknown> {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Jonas Abde",
-    jobTitle: "Fullstack Developer & AI Automation",
+    jobTitle: "IT Support, Technical Operations & Software Engineering",
     description:
-      "Fullstack developer and AI automation specialist based in Aarhus, Denmark. Building modern web applications and intelligent automation solutions.",
+      "Practical experience in enterprise IT support and workplace deployments, with software and automation engineering in Aftergraph, Aarhus.",
     url: BASE_URL,
     address: {
       "@type": "PostalAddress",
@@ -15,8 +15,9 @@ export function generatePersonSchema(): Record<string, unknown> {
       addressCountry: "DK",
     },
     sameAs: [
-      "https://github.com/jonasabde",
-      "https://linkedin.com/in/jonasabde",
+      "https://github.com/JonasAbde",
+      "https://github.com/Aftergraph",
+      "https://www.linkedin.com/in/jonas-abde-22691a12/",
     ],
   };
 }
@@ -27,7 +28,7 @@ export function generateProfessionalServiceSchema(): Record<string, unknown> {
     "@type": "ProfessionalService",
     name: "Jonas Abde",
     description:
-      "Fullstack development and AI automation services — custom web applications, API integrations, and intelligent workflow automation.",
+      "Scoped IT support, workplace device deployment, web software improvements and practical workflow automation.",
     url: BASE_URL,
     provider: generatePersonSchema(),
     areaServed: {
@@ -42,27 +43,27 @@ export function generateProfessionalServiceSchema(): Record<string, unknown> {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Fullstack Web Development",
+            name: "Workplace IT Support and Deployment",
             description:
-              "End-to-end web application development with modern frameworks and scalable architectures.",
+              "Windows workplace troubleshooting, device preparation, onboarding support and documentation for bounded assignments.",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "AI Automation",
+            name: "Websites and Workflow Improvements",
             description:
-              "Intelligent workflow automation using LLMs, agents, and custom AI integrations.",
+              "React/TypeScript interface and web workflow improvements with review and testing.",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "API Development & Integration",
+            name: "Technical Quality and Automation Pilots",
             description:
-              "Custom API design, third-party integrations, and data pipeline engineering.",
+              "Small integration prototypes, reproducible tests, technical documentation and deployment checks.",
           },
         },
       ],
