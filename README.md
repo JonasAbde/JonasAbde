@@ -38,7 +38,7 @@ I use AI coding tools where appropriate, and remain accountable for requirements
 
 Most older personal experiments, learning repositories and legacy prototypes are intentionally **private or archived**. They are preserved for history rather than presented as currently maintained products. My public engineering work is organized primarily under **[Aftergraph](https://github.com/Aftergraph)**.
 
-[Portfolio and historical project notes](PROJECTS.md) · [Evidence policy](PORTFOLIO_EVIDENCE.md) · [Verification runbook](VERIFICATION_RUNBOOK.md)
+[Aftergraph engineering overview](AFTERGRAPH.md) · [Evidence policy](PORTFOLIO_EVIDENCE.md) · [Historical project notes](PROJECTS.md)
 
 ## Contact
 
