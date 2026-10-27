@@ -1,60 +1,49 @@
 # Jonas Abde
 
-I build practical software at the intersection of IT operations, automation, full-stack development, and trustworthy AI.
+**IT Support · Technical Operations · Software & Automation**  
+📍 Aarhus, Denmark · [LinkedIn](https://www.linkedin.com/in/jonas-abde-22691a12/) · [GitHub](https://github.com/JonasAbde)
 
-I run **Rendetalje**, where I work with customer operations, planning, billing, follow-up, and production web workflows. I also build public tools and experiments around agent tooling, MCP integrations, voice interfaces, and deterministic simulations.
+I help people solve technical problems and turn repetitive business processes into practical software. My background combines **hands-on enterprise IT support**, onsite device deployments, operating a service business, and building TypeScript/Python-based tools.
 
-I am looking for hands-on work in **IT Support, Application Support, Technical Operations, Implementation, Automation, Internal Tools, and Junior Full-Stack Development**.
+**Open to roles in Aarhus / East Jutland and suitable remote work:** IT Support, Application Support, IT Operations, Implementation, Workplace / EUC, Automation, and junior software development. I am also open to clearly scoped B2B technical assignments.
 
-## What I care about
+## Practical experience
 
-- Turning messy operational work into clear, reviewable workflows.
-- Putting permissions, approvals, tests, and evidence around AI-assisted actions.
-- Building systems I can explain, operate, and improve — not just demos.
-- Documenting what is working, what is staged, and what is still research.
+- **Lineage Logistics · IT Support Technician (2025):** onsite user support, Microsoft 365, Okta access administration, ServiceNow tickets, onboarding, Boltrics WMS support, and workstation troubleshooting.
+- **Onitio / Danske Bank · On-call IT Deployment Technician (2025):** device preparation, installation, deployment, and practical troubleshooting across bank locations.
+- **Rendetalje · Business owner (2025–present):** customer operations, scheduling, invoicing, workflow improvement, and maintaining software that supports a real service business.
 
-## Selected public work
+I care about communicating clearly, reproducing issues, documenting fixes, and checking that the solution actually works.
 
-| Repository | What you can inspect |
-| --- | --- |
-| [hermes-forge-cli](https://github.com/JonasAbde/hermes-forge-cli) | TypeScript CLI/TUI tooling for development, pack management, MCP tools, agents, and deployment workflows. |
-| [hermes-forge-mcp](https://github.com/JonasAbde/hermes-forge-mcp) | An MCP server that connects compatible AI clients to the Hermes Forge platform. |
-| [worldmind-core](https://github.com/JonasAbde/worldmind-core) | A simulation-first AI world engine built around authoritative event logs, memory, saves, branches, and evidence-gated outcomes. |
-| [leadradar](https://github.com/JonasAbde/leadradar) | A FastAPI prototype that combines public procurement, Danish company signals, scoring, alerts, and CRM workflow concepts. |
+## Selected public projects
 
-These repositories are at different stages. Their own READMEs are the source of truth for installation, current behavior, and limitations.
+| Project | What it demonstrates | Status |
+| --- | --- | --- |
+| [Forge CLI](https://github.com/JonasAbde/hermes-forge-cli) | TypeScript-based developer tooling, command interfaces, plugins and integration workflows | Public code; verify documented commands before relying on them |
+| [Forge MCP](https://github.com/JonasAbde/hermes-forge-mcp) | Model Context Protocol server architecture and tool integration | Public implementation; external-service functionality depends on configuration |
+| [WorldMind Core](https://github.com/JonasAbde/worldmind-core) | Deterministic simulation, event logs, persistence, branching, and validation tooling | Experimental project; tests and benchmarks require fresh verification |
+| [LeadRadar](https://github.com/JonasAbde/leadradar) | Python/FastAPI, public-data ingestion, lead scoring, and business workflows | Prototype, not a production SaaS release |
 
-## Private work, explained openly
+These projects have different levels of completeness. Their source code and project-specific README files are more useful than a feature count or a polished screenshot.
 
-Some of my strongest operational work is private because it contains active business or unreleased product material:
+## Current private work
 
-- **Rendetalje production platform** — a live customer and business workflow.
-- **Project Thea** — a safety-aware health-tech prototype and pilot foundation.
-- **FridayOS** — a governed agent-operations platform with approvals, tools, jobs, artifacts, and audit trails.
+- **Rendetalje platform:** a live business-facing web and operations workflow using React and TypeScript.
+- **Tilsyn:** ongoing private work on an AI-assisted software and operations platform, with attention to approval boundaries, testing, reliability, and auditable execution. **In development**; private source code, user data, and unverified release claims are not published here.
 
-I document the architecture, my responsibility, evidence, and known boundaries without publishing customer data or private source code. See [the selected project portfolio](PROJECTS.md), [the claims ledger](PORTFOLIO_EVIDENCE.md), and [the interview cases](INTERVIEW_CASES.md).
+For additional *historical* project case studies, see [Selected projects](PROJECTS.md) and [Interview cases](INTERVIEW_CASES.md). Some case studies were prepared in July 2026 and should not be read as current deployment or test evidence.
 
-## How I work
+## How I build and verify
 
-1. Understand the real user or operational problem.
-2. Define the workflow, system boundary, and acceptance criteria.
-3. Build a focused slice and test failure paths as well as the happy path.
-4. Review, verify, document limitations, and improve from real use.
+1. Understand the user's actual problem and define a clear acceptance criterion.
+2. Isolate the failure or design a small, testable workflow.
+3. Implement, review, test error paths, and document what still does not work.
+4. Verify with real outputs before making performance, security, or production-readiness claims.
 
-Coding agents can help me implement faster, but I remain responsible for the problem definition, architecture direction, review, testing, security decisions, deployment direction, and operational validation.
+I use AI coding agents as implementation collaborators. I am responsible for specifying the work, reviewing results, validation, deployment decisions, and accurately communicating limitations; I do **not** claim to have manually authored every line.
 
-## What I am exploring now
-
-- Governed tool-using agents and MCP interoperability.
-- Observable AI workflows, evaluation, and privacy-aware traces.
-- Portable and local runtimes that connect my systems and embedded background to newer platform technology.
-- More useful participation in open-source discussions, documentation, issues, and focused pull requests.
-
-See [Current Focus](NOW.md) and [Community & Research](COMMUNITY_AND_RESEARCH.md) for the working track.
+**Evidence policy:** an old README, test total, benchmark, or commit description is not a fresh passing test. See [Portfolio evidence](PORTFOLIO_EVIDENCE.md) and [Verification runbook](VERIFICATION_RUNBOOK.md).
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/jonas-abde-22691a12/)
-- [GitHub](https://github.com/JonasAbde)
-
-I am open to practical collaboration, technical feedback, and opportunities where users, operations, and software meet.
+[Connect on LinkedIn](https://www.linkedin.com/in/jonas-abde-22691a12/) for a technical conversation or a relevant job or contracting opportunity.
