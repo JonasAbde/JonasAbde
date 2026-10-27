@@ -1,49 +1,46 @@
 # Jonas Abde
 
-**IT Support · Technical Operations · Software & Automation**  
-📍 Aarhus, Denmark · [LinkedIn](https://www.linkedin.com/in/jonas-abde-22691a12/) · [GitHub](https://github.com/JonasAbde)
+**IT Support · Technical Operations · Software Engineering & Automation**  
+Based in Aarhus, Denmark · [LinkedIn](https://www.linkedin.com/in/jonas-abde-22691a12/) · [Aftergraph](https://github.com/Aftergraph)
 
-I help people solve technical problems and turn repetitive business processes into practical software. My background combines **hands-on enterprise IT support**, onsite device deployments, operating a service business, and building TypeScript/Python-based tools.
+I work across hands-on IT support, workstation deployment, practical business operations and software engineering. My focus is on **reliable systems, clear evidence and useful automation**.
 
-**Open to roles in Aarhus / East Jutland and suitable remote work:** IT Support, Application Support, IT Operations, Implementation, Workplace / EUC, Automation, and junior software development. I am also open to clearly scoped B2B technical assignments.
+## Current engineering work: Aftergraph
 
-## Practical experience
+**[Aftergraph](https://github.com/Aftergraph)** is the main engineering workspace for my current software projects. I administer its repositories and work on its architecture, implementation, testability and technical operations.
 
-- **Lineage Logistics · IT Support Technician (2025):** onsite user support, Microsoft 365, Okta access administration, ServiceNow tickets, onboarding, Boltrics WMS support, and workstation troubleshooting.
-- **Onitio / Danske Bank · On-call IT Deployment Technician (2025):** device preparation, installation, deployment, and practical troubleshooting across bank locations.
-- **Rendetalje · Business owner (2025–present):** customer operations, scheduling, invoicing, workflow improvement, and maintaining software that supports a real service business.
-
-I care about communicating clearly, reproducing issues, documenting fixes, and checking that the solution actually works.
-
-## Selected public projects
-
-| Project | What it demonstrates | Status |
+| Area | Scope | Where to look |
 | --- | --- | --- |
-| [Forge CLI](https://github.com/JonasAbde/hermes-forge-cli) | TypeScript-based developer tooling, command interfaces, plugins and integration workflows | Public code; verify documented commands before relying on them |
-| [Forge MCP](https://github.com/JonasAbde/hermes-forge-mcp) | Model Context Protocol server architecture and tool integration | Public implementation; external-service functionality depends on configuration |
-| [WorldMind Core](https://github.com/JonasAbde/worldmind-core) | Deterministic simulation, event logs, persistence, branching, and validation tooling | Experimental project; tests and benchmarks require fresh verification |
-| [LeadRadar](https://github.com/JonasAbde/leadradar) | Python/FastAPI, public-data ingestion, lead scoring, and business workflows | Prototype, not a production SaaS release |
+| **Tilsyn** | Private, in-development AI-assisted software and operations platform with chat, agents, remote workflows and governed execution | [Aftergraph organisation](https://github.com/Aftergraph) · source remains private |
+| **Execution & reliability** | Durable workflow coordination, CI, verification and audit-oriented design | [works-execution](https://github.com/Aftergraph/works-execution) |
+| **Developer experience** | Web interfaces, agents and supporting engineering tools | [studio](https://github.com/Aftergraph/studio) |
+| **Documentation & platform** | Public-facing technical documentation and architecture material | [docs](https://github.com/Aftergraph/docs) · [aftergraph.org](https://aftergraph.org) |
 
-These projects have different levels of completeness. Their source code and project-specific README files are more useful than a feature count or a polished screenshot.
+Projects are at different stages of development. Links to public source are examples of inspectable work, **not claims that every feature is deployed or production-ready**. Private Tilsyn implementation, secrets and customer data are intentionally not published.
 
-## Current private work
+## Professional and operational experience
 
-- **Rendetalje platform:** a live business-facing web and operations workflow using React and TypeScript.
-- **Tilsyn:** ongoing private work on an AI-assisted software and operations platform, with attention to approval boundaries, testing, reliability, and auditable execution. **In development**; private source code, user data, and unverified release claims are not published here.
+- **Lineage Logistics · IT Support Technician (2025):** Microsoft 365, Okta, ServiceNow, end-user support, onboarding, workstation troubleshooting and support for operational software.
+- **Onitio / Danske Bank · IT Deployment Technician (2025):** onsite device preparation, deployment and troubleshooting.
+- **Rendetalje · Business owner:** coordinating real service operations, customer workflows and practical process improvements; software and automation help support those operations.
 
-For additional *historical* project case studies, see [Selected projects](PROJECTS.md) and [Interview cases](INTERVIEW_CASES.md). Some case studies were prepared in July 2026 and should not be read as current deployment or test evidence.
+My IT-Technology studies were **not completed**. I describe my capabilities through practical work and projects rather than claiming a completed degree or specialist certifications I do not hold.
 
-## How I build and verify
+## Technical interests and working methods
 
-1. Understand the user's actual problem and define a clear acceptance criterion.
-2. Isolate the failure or design a small, testable workflow.
-3. Implement, review, test error paths, and document what still does not work.
-4. Verify with real outputs before making performance, security, or production-readiness claims.
+**Workplace IT:** Windows, Microsoft 365, identity/access support, hardware deployment, troubleshooting and documentation.  
+**Development:** TypeScript, React, Python, Bash, Linux, Git, Docker, APIs and Cloudflare-connected web workflows.  
+**Engineering:** Regression testing, CI/CD, security boundaries, reproducible results, design reviews and deployment controls.
 
-I use AI coding agents as implementation collaborators. I am responsible for specifying the work, reviewing results, validation, deployment decisions, and accurately communicating limitations; I do **not** claim to have manually authored every line.
+I use AI coding tools where appropriate, and remain accountable for requirements, code review, testing and accurate communication of limitations. A passing test is evidence for **that exact version**, not a blanket production claim.
 
-**Evidence policy:** an old README, test total, benchmark, or commit description is not a fresh passing test. See [Portfolio evidence](PORTFOLIO_EVIDENCE.md) and [Verification runbook](VERIFICATION_RUNBOOK.md).
+## Repository organization
+
+Most older personal experiments, learning repositories and legacy prototypes are intentionally **private or archived**. They are preserved for history rather than presented as currently maintained products. My public engineering work is organized primarily under **[Aftergraph](https://github.com/Aftergraph)**.
+
+[Portfolio and historical project notes](PROJECTS.md) · [Evidence policy](PORTFOLIO_EVIDENCE.md) · [Verification runbook](VERIFICATION_RUNBOOK.md)
 
 ## Contact
 
-[Connect on LinkedIn](https://www.linkedin.com/in/jonas-abde-22691a12/) for a technical conversation or a relevant job or contracting opportunity.
+**Open to suitable IT support, IT operations, implementation, automation, junior engineering and scoped B2B opportunities.**  
+[Connect on LinkedIn](https://www.linkedin.com/in/jonas-abde-22691a12/).
