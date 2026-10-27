@@ -1,6 +1,6 @@
 # Current Focus
 
-I am building a focused transition into hands-on IT and software work through documented support experience, operational responsibility, and selected systems that I can explain and demonstrate.
+I am seeking hands-on IT and software work in Aarhus and East Jutland, drawing on enterprise support and deployment experience, operational responsibility, and selected technical projects I can explain and demonstrate.
 
 ## Work
 
@@ -29,7 +29,7 @@ Secondary:
 - Improve application-support habits: reproduce the issue, isolate the boundary, communicate clearly, fix safely, and record the verification.
 - Build small, evidence-backed experiments around governed tool-using agents, MCP interoperability, AI observability, and portable runtimes.
 - Keep public project READMEs short, runnable where possible, and explicit about limitations.
-- Resolve the public-vault and historical-secret security blockers before using those repositories as portfolio evidence.
+- Audit older repositories for personal data and credential exposure; keep repositories with unresolved security risks out of portfolio promotion.
 
 ## Community and research priorities
 
@@ -42,12 +42,12 @@ The detailed loop and templates live in [COMMUNITY_AND_RESEARCH.md](COMMUNITY_AN
 
 ## Flagship portfolio
 
-1. **Rendetalje production platform** — live customer and business workflow
-2. **Project Thea** — safety-aware health-tech prototype and pilot foundation
-3. **FridayOS** — governed agentic operations platform
-4. **WorldMind Core** — public deterministic simulation and gameplay engine
+1. **Rendetalje production platform** — real customer and business workflows
+2. **Tilsyn** — private, in-development AI-assisted software and operations platform; no public release or production claim
+3. **WorldMind Core** — public deterministic simulation and gameplay engine
+4. **LeadRadar** — public FastAPI lead-intelligence prototype
 
-Supporting cases include Project Exodus, LeadRadar, Foodtruck Fiesta web operations, Rendetalje Workspace / Nora, and Friday Voice App.
+Historical or supporting cases include Project Thea, FridayOS, Project Exodus, Foodtruck Fiesta web operations, Rendetalje Workspace / Nora, and Friday Voice App. Their older case-study documents are dated snapshots, not current release evidence.
 
 ## Working principle
 
