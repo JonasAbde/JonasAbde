@@ -77,7 +77,7 @@ function ProjectCard({ project }: { project: Project }) {
             rel="noopener noreferrer"
             className="text-sm font-medium text-pearl-muted hover:text-pearl transition-colors"
           >
-            Besøg site ↗
+            {project.url.includes('github.com/') ? 'Se kildekode ↗' : 'Besøg website ↗'}
           </a>
         )}
       </div>
@@ -90,7 +90,7 @@ export default function ProjectsPage() {
     <>
       <SeoHelmet
         title="Projekter"
-        description="Se de digitale produkter jeg har bygget — fra webapplikationer og AI-systemer til forretningsplatforme."
+        description="Se dokumenterede web- og driftsprojekter samt Aftergraph-engineering, der fortsat er under udvikling."
         path="/projekter"
       />
 
@@ -102,8 +102,8 @@ export default function ProjectsPage() {
               Projekter
             </h1>
             <p className="text-pearl-muted text-lg leading-relaxed">
-              Fra idé til lancering — her er de produkter og platforme jeg har
-              bygget for kunder og som selvstændige projekter.
+              Udvalgte arbejder fra Aftergraph, Rendetalje og andre praktiske projekter.
+              Status på hvert projekt angiver, om det er live eller under udvikling.
             </p>
           </div>
 
